@@ -1,10 +1,16 @@
+using usuarios;
+
 namespace RestoApp
 {
     public partial class menu_bienvenida : Form
     {
-        public menu_bienvenida()
+        private menu_login _login;
+        private Cuentas _cuentas;
+        public menu_bienvenida(Cuentas cuentas)
         {
             InitializeComponent();
+            _cuentas = cuentas;
+            _login = new menu_login(_cuentas);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -39,11 +45,10 @@ namespace RestoApp
 
         private void btn_sc__Click(object sender, EventArgs e)
         {
-            this.Enabled = false;
-            this.Opacity = .75;
-            var login = new menu_login();
-            login.Show();
+            this.Hide();
+            _login.Show();
         }
+
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -56,6 +61,26 @@ namespace RestoApp
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

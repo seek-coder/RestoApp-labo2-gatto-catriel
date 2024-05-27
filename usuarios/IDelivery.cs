@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace usuarios
 {
-    internal interface IDelivery
+    public interface IDelivery
     {
+        bool realizarEntrega();
     }
 }

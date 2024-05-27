@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoApp", "RestoApp\RestoA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TP1_Labo2", "TP1_Labo2", "{1730D8CA-685A-4D34-B069-5898A30D66B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usuarios", "usuarios\usuarios.csproj", "{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "usuarios", "usuarios\usuarios.csproj", "{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +29,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72} = {1730D8CA-685A-4D34-B069-5898A30D66B9}
+		{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442} = {1730D8CA-685A-4D34-B069-5898A30D66B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17D80BBB-E808-441E-9451-5FB56D99CE59}

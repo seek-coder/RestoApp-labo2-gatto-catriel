@@ -39,10 +39,14 @@
             button2 = new Button();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
+            pictureBox5 = new PictureBox();
+            pictureBox6 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -50,24 +54,26 @@
             label1.AccessibleName = "lb_login_info";
             label1.AutoSize = true;
             label1.Font = new Font("JetBrains Mono", 35.9999962F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.LightCoral;
-            label1.Location = new Point(84, 64);
+            label1.ForeColor = SystemColors.InfoText;
+            label1.Location = new Point(85, 27);
             label1.Name = "label1";
             label1.Size = new Size(230, 63);
             label1.TabIndex = 0;
             label1.Text = "INGRESO";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AccessibleName = "lb_login_info";
             label2.AutoSize = true;
             label2.Font = new Font("JetBrains Mono", 35.9999962F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.LightCoral;
-            label2.Location = new Point(43, 127);
+            label2.ForeColor = SystemColors.InfoText;
+            label2.Location = new Point(44, 90);
             label2.Name = "label2";
             label2.Size = new Size(317, 63);
             label2.TabIndex = 1;
             label2.Text = "DE USUARIO";
+            label2.Click += label2_Click;
             // 
             // pictureBox2
             // 
@@ -152,6 +158,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 10;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
@@ -165,6 +172,25 @@
             pictureBox4.TabIndex = 11;
             pictureBox4.TabStop = false;
             // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(160, 167);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(86, 80);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 12;
+            pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(0, 458);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(401, 143);
+            pictureBox6.TabIndex = 13;
+            pictureBox6.TabStop = false;
+            // 
             // menu_login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -172,6 +198,7 @@
             BackColor = Color.White;
             ClientSize = new Size(400, 600);
             ControlBox = false;
+            Controls.Add(pictureBox5);
             Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
             Controls.Add(button2);
@@ -182,6 +209,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(label2);
             Controls.Add(label1);
+            Controls.Add(pictureBox6);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
@@ -193,6 +221,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -209,5 +239,7 @@
         private Button button2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
     }
 }

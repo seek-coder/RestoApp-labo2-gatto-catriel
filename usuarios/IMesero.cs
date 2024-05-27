@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace usuarios
 {
-    internal interface IMesero
+    public interface IMesero
     {
+        void tomarMesa();
     }
 }

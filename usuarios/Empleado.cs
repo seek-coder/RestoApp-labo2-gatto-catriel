@@ -11,8 +11,9 @@ namespace usuarios
         private int _contacto;
         private double _sueldo;
         private string _rol;
+        private string _usuario;
 
-        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol)
+        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol, string usuario)
         {
             _nombre = nombre;
             _apellido = apellido;
@@ -20,6 +21,7 @@ namespace usuarios
             _contacto = contacto;
             _sueldo = sueldo;
             _rol = rol;
+            _usuario = usuario;
         }
 
         public object obtenerDatos(string atributo)
@@ -38,6 +40,8 @@ namespace usuarios
                     return _sueldo;
                 case "rol":
                     return _rol;
+                case "usuario":
+                    return _usuario;
                 default:
                     throw new ArgumentException("Nombre de atributo inválido");
             }

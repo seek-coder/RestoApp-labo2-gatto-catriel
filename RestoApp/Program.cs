@@ -1,3 +1,5 @@
+using usuarios;
+
 namespace RestoApp
 {
     internal static class Program
@@ -8,10 +10,21 @@ namespace RestoApp
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
-            Application.Run(new menu_bienvenida());
+            Cuentas cuentas = new Cuentas();
+
+            // cuentas
+            cuentas.AgregarUsuario("Catriel", "clave1"); // encargado
+            cuentas.AgregarUsuario("Ramón", "clave2"); // mesero
+            cuentas.AgregarUsuario("Damián", "clave3"); // cocinero
+            cuentas.AgregarUsuario("Tomás", "clave4"); // delivery
+
+            ApplicationConfiguration.Initialize(); 
+            // arranco la aplicación con cuentas para que me tome los usuarios
+            Application.Run(new menu_bienvenida(cuentas));
+
+
+
+
         }
     }
 }

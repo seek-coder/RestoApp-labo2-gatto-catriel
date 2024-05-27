@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace usuarios
 {
-    internal interface ICocinero
+    public interface ICocinero
     {
+        bool cocinar();
+        Plato crearPlato();
+        Plato modificarPlato();
+        void eliminarPlato();
+        string describrirPlato();
     }
+
 }
