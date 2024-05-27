@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 
 namespace usuarios
 {
-    public class Empleado
+    public class Empleado : ICocinero, IDelivery, IEncargado, IMesero
     {
         private string _nombre;
         private string _apellido;
@@ -12,16 +12,18 @@ namespace usuarios
         private double _sueldo;
         private string _rol;
         private string _usuario;
+        private string _contraseña;
 
-        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol, string usuario)
+        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol, string usuario, string contraseña)
         {
-            _nombre = nombre;
-            _apellido = apellido;
-            _direccion = direccion;
-            _contacto = contacto;
-            _sueldo = sueldo;
-            _rol = rol;
-            _usuario = usuario;
+            this._nombre = nombre;
+            this._apellido = apellido;
+            this._direccion = direccion;
+            this._contacto = contacto;
+            this._sueldo = sueldo;
+            this._rol = rol;
+            this._usuario = usuario;
+            this._contraseña = contraseña;
         }
 
         public object obtenerDatos(string atributo)
@@ -42,9 +44,46 @@ namespace usuarios
                     return _rol;
                 case "usuario":
                     return _usuario;
+                case "contraseña":
+                    return _contraseña;
                 default:
                     throw new ArgumentException("Nombre de atributo inválido");
             }
+        }
+
+        bool ICocinero.cocinar()
+        {
+            throw new NotImplementedException();
+        }
+
+        string ICocinero.describrirPlato()
+        {
+            throw new NotImplementedException();
+        }
+
+        void ICocinero.eliminarPlato()
+        {
+            throw new NotImplementedException();
+        }
+
+        double IEncargado.pagarSueldoMensual()
+        {
+            throw new NotImplementedException();
+        }
+
+        bool IDelivery.realizarEntrega()
+        {
+            throw new NotImplementedException();
+        }
+
+        double IEncargado.recaudarIngresoDiario()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IMesero.tomarMesa()
+        {
+            throw new NotImplementedException();
         }
     }
 }

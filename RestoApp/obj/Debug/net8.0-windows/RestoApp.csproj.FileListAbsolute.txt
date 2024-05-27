@@ -20,3 +20,4 @@ D:\csharp_code\RestoApp\RestoApp\obj\Debug\net8.0-windows\RestoApp.csproj.Assemb
 D:\csharp_code\RestoApp\RestoApp\bin\Debug\net8.0-windows\usuarios.dll
 D:\csharp_code\RestoApp\RestoApp\bin\Debug\net8.0-windows\usuarios.pdb
 D:\csharp_code\RestoApp\RestoApp\obj\Debug\net8.0-windows\RestoApp.csproj.Up2Date
+D:\csharp_code\RestoApp\RestoApp\obj\Debug\net8.0-windows\RestoApp.menu_encargado.resources

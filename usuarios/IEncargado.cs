@@ -9,8 +9,8 @@ namespace usuarios
 {
     public interface IEncargado
     {
-        Stock consultarStockActual();
-        Stock consultarStockAnterior();
+        //Stock consultarStockActual();
+        //Stock consultarStockAnterior();
         double recaudarIngresoDiario();
         double pagarSueldoMensual();
     }

@@ -9,8 +9,8 @@ namespace usuarios
     public interface ICocinero
     {
         bool cocinar();
-        Plato crearPlato();
-        Plato modificarPlato();
+        //Plato crearPlato();
+        //Plato modificarPlato();
         void eliminarPlato();
         string describrirPlato();
     }

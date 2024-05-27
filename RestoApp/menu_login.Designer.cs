@@ -60,7 +60,6 @@
             label1.Size = new Size(230, 63);
             label1.TabIndex = 0;
             label1.Text = "INGRESO";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -73,7 +72,6 @@
             label2.Size = new Size(317, 63);
             label2.TabIndex = 1;
             label2.Text = "DE USUARIO";
-            label2.Click += label2_Click;
             // 
             // pictureBox2
             // 
@@ -158,7 +156,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 10;
             pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 

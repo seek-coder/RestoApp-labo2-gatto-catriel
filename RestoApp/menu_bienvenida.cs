@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using usuarios;
 
 namespace RestoApp
@@ -5,12 +6,13 @@ namespace RestoApp
     public partial class menu_bienvenida : Form
     {
         private menu_login _login;
-        private Cuentas _cuentas;
-        public menu_bienvenida(Cuentas cuentas)
+        private List<Empleado> listaEmpleados;
+        public menu_bienvenida(List<Empleado> empleados)
         {
             InitializeComponent();
-            _cuentas = cuentas;
-            _login = new menu_login(_cuentas);
+            // _cuentas = cuentas;
+            listaEmpleados = empleados;
+            _login = new menu_login(listaEmpleados);
         }
 
         private void Form1_Load(object sender, EventArgs e)
