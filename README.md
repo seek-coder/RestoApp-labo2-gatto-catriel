@@ -25,7 +25,11 @@
 
 ![RestoApp_MainMenu](https://github.com/seek-coder/RestoApp-labo2-gatto-catriel/assets/130781541/0d455746-0b8e-43b3-97b8-8544ac492360)
 
-**RestoApp** es una aplicación de escritorio desarrollada en **C#** que ofrece una solución integral para la gestión de un **restaurante**. Esta aplicación permite **administrar empleados, gestionar pedidos, controlar inventario** y realizar otras tareas relacionadas con la operación diaria de un restaurante.
+**RestoApp** es una aplicación de escritorio desarrollada en **C#** que ofrece una solución integral para la gestión de un **restaurante**. Esta aplicación permite:
+* administrar empleados
+* gestionar pedidos
+* controlar inventario
+* realizar otras tareas relacionadas con la operación diaria de un restaurante
 
 La aplicación está diseñada para ser **fácil de usar** y proporcionar una **experiencia fluida** tanto para los empleados como para los clientes. Utiliza una **interfaz gráfica intuitiva** que permite navegar sin esfuerzo por las diferentes funciones y características de la aplicación.
 
