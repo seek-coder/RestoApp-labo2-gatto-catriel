@@ -9,3 +9,14 @@ D:\csharp_code\RestoApp\usuarios\obj\Debug\net8.0\usuarios.dll
 D:\csharp_code\RestoApp\usuarios\obj\Debug\net8.0\refint\usuarios.dll
 D:\csharp_code\RestoApp\usuarios\obj\Debug\net8.0\usuarios.pdb
 D:\csharp_code\RestoApp\usuarios\obj\Debug\net8.0\ref\usuarios.dll
+D:\csharp_code\TP1_programacion2\usuarios\bin\Debug\net8.0\usuarios.deps.json
+D:\csharp_code\TP1_programacion2\usuarios\bin\Debug\net8.0\usuarios.dll
+D:\csharp_code\TP1_programacion2\usuarios\bin\Debug\net8.0\usuarios.pdb
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\usuarios.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\usuarios.AssemblyInfoInputs.cache
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\usuarios.AssemblyInfo.cs
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\usuarios.csproj.CoreCompileInputs.cache
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\usuarios.dll
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\refint\usuarios.dll
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\usuarios.pdb
+D:\csharp_code\TP1_programacion2\usuarios\obj\Debug\net8.0\ref\usuarios.dll

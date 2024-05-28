@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\csharp_code\\RestoApp\\RestoApp\\RestoApp.csproj": {}
+    "D:\\csharp_code\\TP1_programacion2\\RestoApp\\RestoApp.csproj": {}
   },
   "projects": {
-    "D:\\csharp_code\\RestoApp\\RestoApp\\RestoApp.csproj": {
+    "D:\\csharp_code\\TP1_programacion2\\RestoApp\\RestoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharp_code\\RestoApp\\RestoApp\\RestoApp.csproj",
+        "projectUniqueName": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\RestoApp.csproj",
         "projectName": "RestoApp",
-        "projectPath": "D:\\csharp_code\\RestoApp\\RestoApp\\RestoApp.csproj",
+        "projectPath": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\RestoApp.csproj",
         "packagesPath": "C:\\Users\\Catriel\\.nuget\\packages\\",
-        "outputPath": "D:\\csharp_code\\RestoApp\\RestoApp\\obj\\",
+        "outputPath": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Catriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\csharp_code\\RestoApp\\usuarios\\usuarios.csproj": {
-                "projectPath": "D:\\csharp_code\\RestoApp\\usuarios\\usuarios.csproj"
+              "D:\\csharp_code\\TP1_programacion2\\usuarios\\usuarios.csproj": {
+                "projectPath": "D:\\csharp_code\\TP1_programacion2\\usuarios\\usuarios.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\csharp_code\\RestoApp\\usuarios\\usuarios.csproj": {
+    "D:\\csharp_code\\TP1_programacion2\\usuarios\\usuarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharp_code\\RestoApp\\usuarios\\usuarios.csproj",
+        "projectUniqueName": "D:\\csharp_code\\TP1_programacion2\\usuarios\\usuarios.csproj",
         "projectName": "usuarios",
-        "projectPath": "D:\\csharp_code\\RestoApp\\usuarios\\usuarios.csproj",
+        "projectPath": "D:\\csharp_code\\TP1_programacion2\\usuarios\\usuarios.csproj",
         "packagesPath": "C:\\Users\\Catriel\\.nuget\\packages\\",
-        "outputPath": "D:\\csharp_code\\RestoApp\\usuarios\\obj\\",
+        "outputPath": "D:\\csharp_code\\TP1_programacion2\\usuarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Catriel\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J96erQ0UjMKZ6hUfXHmCnDYfE5IPENrByxxXCDT/F8+Qu1UwOdSMg4CpgTnd/YYTGBF91JR94Ce5oT/0OAveEg==",
+  "dgSpecHash": "adwuD6PjFrehPHSGhMp707lGmQ6fKA+RuNEN40fZ9TGnBMB2cxmF/5Dxn4tWTZBDkh9fvc4eiffBIPHrfPWZsg==",
   "success": true,
-  "projectFilePath": "D:\\csharp_code\\RestoApp\\administracion\\administracion.csproj",
+  "projectFilePath": "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

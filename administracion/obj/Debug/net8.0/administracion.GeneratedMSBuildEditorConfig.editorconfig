@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = administracion
-build_property.ProjectDir = D:\csharp_code\RestoApp\administracion\
+build_property.ProjectDir = D:\csharp_code\TP1_programacion2\administracion\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

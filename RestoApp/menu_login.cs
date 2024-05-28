@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,15 +12,17 @@ using usuarios;
 
 namespace RestoApp
 {
+    
     public partial class menu_login : Form
     {
         // private Cuentas _cuentas;
         private List<Empleado> listaEmpleados;
+        public string usernameActual = "¿Nombre?";
+
         public menu_login(List<Empleado> listaEmpleados)
         {
             InitializeComponent();
             this.listaEmpleados = listaEmpleados;
-            // this._cuentas = cuentas;
         }
 
         private void menu_login_Load(object sender, EventArgs e)
@@ -46,14 +49,15 @@ namespace RestoApp
 
             bool usuarioEncontrado = false;
 
-            // users
+            // usuarios
             foreach (Empleado empleado in listaEmpleados)
             {
                 if (username.ToLower() == empleado.obtenerDatos("usuario").ToString() &&
                     password == empleado.obtenerDatos("contraseña").ToString())
                 {
                     usuarioEncontrado = true;
-                    MessageBox.Show("Buena bro");
+                    usernameActual = username;
+                    MessageBox.Show($"Bienvenid@ {username}.");
                     break;
                 }
             }
@@ -63,6 +67,15 @@ namespace RestoApp
                 MessageBox.Show("Usuario o contraseña incorrectos");
                 this.username.Text = "";
                 this.password.Text = "";
+            } 
+            else
+            {
+                if (usernameActual == "catriel") // probar con el método de arriba
+                {
+                    this.Hide();
+                    menu_encargado encargadoForm = new menu_encargado(this);
+                    encargadoForm.Show();
+                }
             }
 
         }
@@ -86,5 +99,7 @@ namespace RestoApp
         {
 
         }
+
+        public string getCurrentUsername() { return usernameActual; }
     }
 }

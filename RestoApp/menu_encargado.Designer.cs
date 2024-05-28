@@ -33,7 +33,10 @@
             pictureBox3 = new PictureBox();
             button1 = new Button();
             pictureBox4 = new PictureBox();
-            panel1 = new Panel();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label4 = new Label();
             label3 = new Label();
             label1 = new Label();
             label2 = new Label();
@@ -63,7 +66,10 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = SystemColors.HighlightText;
-            splitContainer1.Panel2.Controls.Add(panel1);
+            splitContainer1.Panel2.Controls.Add(label7);
+            splitContainer1.Panel2.Controls.Add(label6);
+            splitContainer1.Panel2.Controls.Add(label5);
+            splitContainer1.Panel2.Controls.Add(label4);
             splitContainer1.Panel2.Controls.Add(label3);
             splitContainer1.Panel2.Controls.Add(label1);
             splitContainer1.Panel2.Controls.Add(label2);
@@ -97,6 +103,7 @@
             button1.Text = "Salir";
             button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox4
             // 
@@ -108,18 +115,51 @@
             pictureBox4.TabIndex = 9;
             pictureBox4.TabStop = false;
             // 
-            // panel1
+            // label7
             // 
-            panel1.Location = new Point(24, 82);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(693, 121);
-            panel1.TabIndex = 15;
-            panel1.Paint += panel1_Paint;
+            label7.AutoSize = true;
+            label7.Font = new Font("JetBrains Mono", 17.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(351, 162);
+            label7.Name = "label7";
+            label7.Size = new Size(140, 31);
+            label7.TabIndex = 18;
+            label7.Text = "Contacto:";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("JetBrains Mono", 17.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(21, 162);
+            label6.Name = "label6";
+            label6.Size = new Size(154, 31);
+            label6.TabIndex = 17;
+            label6.Text = "Dirección:";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("JetBrains Mono", 17.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(351, 85);
+            label5.Name = "label5";
+            label5.Size = new Size(140, 31);
+            label5.TabIndex = 16;
+            label5.Text = "Apellido:";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("JetBrains Mono", 17.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(21, 85);
+            label4.Name = "label4";
+            label4.Size = new Size(112, 31);
+            label4.TabIndex = 15;
+            label4.Text = "Nombre:";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(21, 52);
+            label3.Location = new Point(21, 57);
             label3.Name = "label3";
             label3.Size = new Size(442, 15);
             label3.TabIndex = 14;
@@ -131,9 +171,10 @@
             label1.Font = new Font("JetBrains Mono", 27.7499962F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(13, 12);
             label1.Name = "label1";
-            label1.Size = new Size(396, 49);
+            label1.Size = new Size(418, 49);
             label1.TabIndex = 1;
-            label1.Text = "Menú de encargado";
+            label1.Text = "Panel de encargado";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -165,6 +206,7 @@
             Controls.Add(splitContainer1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "menu_encargado";
+            Shown += menu_encargado_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();
@@ -186,6 +228,9 @@
         protected Label label2;
         private Label label1;
         private Label label3;
-        private Panel panel1;
+        private Label label4;
+        private Label label7;
+        private Label label6;
+        private Label label5;
     }
 }

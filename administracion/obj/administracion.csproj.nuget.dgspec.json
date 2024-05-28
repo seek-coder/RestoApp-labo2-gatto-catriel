@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\csharp_code\\RestoApp\\administracion\\administracion.csproj": {}
+    "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj": {}
   },
   "projects": {
-    "D:\\csharp_code\\RestoApp\\administracion\\administracion.csproj": {
+    "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharp_code\\RestoApp\\administracion\\administracion.csproj",
+        "projectUniqueName": "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj",
         "projectName": "administracion",
-        "projectPath": "D:\\csharp_code\\RestoApp\\administracion\\administracion.csproj",
+        "projectPath": "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj",
         "packagesPath": "C:\\Users\\Catriel\\.nuget\\packages\\",
-        "outputPath": "D:\\csharp_code\\RestoApp\\administracion\\obj\\",
+        "outputPath": "D:\\csharp_code\\TP1_programacion2\\administracion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Catriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
