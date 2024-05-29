@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RestoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a23888cac061eb5466955b9a16842c8c226106c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c14c507c39c2e43e222995bf238293ac6649e2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RestoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RestoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

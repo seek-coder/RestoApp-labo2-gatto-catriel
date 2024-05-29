@@ -17,18 +17,36 @@ namespace RestoApp
     {
         private menu_login _login;
         private string currentUserName;
+        private List<Empleado> _listaEmpleados;
 
-        public menu_encargado(menu_login login)
+        public menu_encargado(menu_login login, List<Empleado> listaEmpleados, string currentUserName)
         {
             InitializeComponent();
             this._login = login;
-            currentUserName = _login.getCurrentUsername();
+            this.currentUserName = currentUserName;
+            this._listaEmpleados = listaEmpleados;
         }
 
         // creo método para carga del form
         private void menu_encargado_Load(object sender, EventArgs e)
         {
-            label4.Text = $"Nombre: {currentUserName}";
+            Empleado empleadoN = _listaEmpleados.FirstOrDefault(emp => emp.obtenerDatos("usuario").ToString() == currentUserName);
+
+            // Ahora puedes acceder a los datos del empleado1
+            if (empleadoN != null)
+            {
+                string nombreEmpleadoN = empleadoN.obtenerDatos("nombre").ToString();
+                string apellidoEmpleadoN = empleadoN.obtenerDatos("apellido").ToString();
+                string direccionEmpleadoN = empleadoN.obtenerDatos("direccion").ToString();
+                string contactoEmpleadoN = empleadoN.obtenerDatos("contacto").ToString();
+
+                // Puedes utilizar estos datos como desees, por ejemplo, mostrarlos en un MessageBox
+                label4.Text = $"Nombre: {nombreEmpleadoN}";
+                label5.Text = $"Apellido: {apellidoEmpleadoN}";
+                label6.Text = $"Dirección: {direccionEmpleadoN}";
+                label7.Text = $"Contacto: {contactoEmpleadoN}";
+            }
+            
             //MessageBox.Show("Test");
         }
 
