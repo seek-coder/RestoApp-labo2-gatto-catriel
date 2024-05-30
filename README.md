@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="utils/RestoApp_ico.png" alt="Logo" width="174" height="175">
+    <img src="https://raw.githubusercontent.com/seek-coder/RestoApp-labo2-gatto-catriel/main/utils/RestoApp_ico.png?token=GHSAT0AAAAAACQJDXO4JEMTMGT7WA3PXHT6ZSY7LOA" alt="Logo" width="174" height="175">
   </a>
 
   <h3 align="center">RestoApp</h3>
