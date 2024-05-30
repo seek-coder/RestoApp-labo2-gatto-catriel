@@ -12,6 +12,6 @@ namespace usuarios
         //Stock consultarStockActual();
         //Stock consultarStockAnterior();
         double recaudarIngresoDiario();
-        double pagarSueldoMensual();
+        double pagarSueldoMensual(Empleado empleado);
     }
 }

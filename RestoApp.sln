@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TP1_Labo2", "TP1_Labo2", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "usuarios", "usuarios\usuarios.csproj", "{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "administracion", "administracion\administracion.csproj", "{C0EF2067-2053-4E9A-83C7-290E89C62BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "administracion", "administracion\administracion.csproj", "{C0EF2067-2053-4E9A-83C7-290E89C62BF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

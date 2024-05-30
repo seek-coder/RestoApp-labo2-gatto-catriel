@@ -18,6 +18,7 @@ namespace RestoApp
         // private Cuentas _cuentas;
         private List<Empleado> _listaEmpleados;
         public string usernameActual = "¿Nombre?";
+        string rol;
 
         public menu_login(List<Empleado> listaEmpleados)
         {
@@ -56,6 +57,7 @@ namespace RestoApp
                     password == empleado.obtenerDatos("contraseña").ToString())
                 {
                     usuarioEncontrado = true;
+                    rol = empleado.obtenerDatos("rol").ToString();
                     usernameActual = username;
                     MessageBox.Show($"Bienvenid@ {username}.");
                     break;
@@ -70,7 +72,7 @@ namespace RestoApp
             } 
             else
             {
-                if (usernameActual == "catriel") // probar con el método de arriba
+                if(rol == "encargado")
                 {
                     this.Hide();
                     menu_login login = new menu_login(_listaEmpleados);
@@ -101,6 +103,6 @@ namespace RestoApp
 
         }
 
-        public string getCurrentUsername() { return usernameActual; }
+        //public string getCurrentUsername() { return usernameActual; }
     }
 }

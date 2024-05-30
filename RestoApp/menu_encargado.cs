@@ -15,6 +15,7 @@ namespace RestoApp
 
     public partial class menu_encargado : Form
     {
+        private menu_encargado_pagar _encargadoPagar;
         private menu_login _login;
         private string currentUserName;
         private List<Empleado> _listaEmpleados;
@@ -25,6 +26,7 @@ namespace RestoApp
             this._login = login;
             this.currentUserName = currentUserName;
             this._listaEmpleados = listaEmpleados;
+            this._encargadoPagar = new menu_encargado_pagar(listaEmpleados);
         }
 
         // creo método para carga del form
@@ -46,7 +48,7 @@ namespace RestoApp
                 label6.Text = $"Dirección: {direccionEmpleadoN}";
                 label7.Text = $"Contacto: {contactoEmpleadoN}";
             }
-            
+
             //MessageBox.Show("Test");
         }
 
@@ -58,18 +60,23 @@ namespace RestoApp
 
         private void label1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
             // cambio el texto del label cuando el formulario se carga
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            _encargadoPagar.Show();
         }
     }
 }

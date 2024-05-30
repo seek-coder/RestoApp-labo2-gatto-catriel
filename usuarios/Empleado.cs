@@ -13,8 +13,9 @@ namespace usuarios
         private string _rol;
         private string _usuario;
         private string _contraseña;
+        private bool _cobroSueldo;
 
-        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol, string usuario, string contraseña)
+        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol, string usuario, string contraseña, bool cobroSueldo)
         {
             this._nombre = nombre;
             this._apellido = apellido;
@@ -24,6 +25,7 @@ namespace usuarios
             this._rol = rol;
             this._usuario = usuario;
             this._contraseña = contraseña;
+            this._cobroSueldo = cobroSueldo;
         }
 
         public object obtenerDatos(string atributo)
@@ -46,6 +48,8 @@ namespace usuarios
                     return _usuario;
                 case "contraseña":
                     return _contraseña;
+                case "cobro":
+                    return _cobroSueldo;
                 default:
                     throw new ArgumentException("Nombre de atributo inválido");
             }
@@ -66,9 +70,10 @@ namespace usuarios
             throw new NotImplementedException();
         }
 
-        double IEncargado.pagarSueldoMensual()
+        double IEncargado.pagarSueldoMensual(Empleado empleado)
         {
-            throw new NotImplementedException();
+            empleado._cobroSueldo = true;
+            return empleado._sueldo;
         }
 
         bool IDelivery.realizarEntrega()
