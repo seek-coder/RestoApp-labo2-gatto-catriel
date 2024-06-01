@@ -1,3 +1,4 @@
+using administracion;
 using usuarios;
 
 namespace RestoApp
@@ -10,7 +11,7 @@ namespace RestoApp
         [STAThread]
         static void Main()
         {
-            // Cuentas cuentas = new Cuentas();
+            // GESTIÓN DE EMPLEADOS // 
 
             List<Empleado> listaEmpleados = new List<Empleado>();
 
@@ -29,13 +30,24 @@ namespace RestoApp
             IEncargado encargado1 = empleado1;
             IEncargado encargado2 = empleado2;
 
-            // cuentas
-            // cuentas.AgregarUsuario("catriel", "clave1"); // encargado
-            // cuentas.AgregarUsuario("ramon", "clave2"); // mesero
-            // cuentas.AgregarUsuario("damian", "clave3"); // cocinero
-            //  cuentas.AgregarUsuario("tomas", "clave4"); // delivery
+            // GESTIÓN DE STOCK //
+
+            List<Stock> listaProductosActual = new List<Stock>();
+
+            Stock producto1 = new Stock(1, "Manzanas", 50, 150);
+            Stock producto2 = new Stock(2, "Bananas", 40, 180);
+            Stock producto3 = new Stock(3, "Leche", 20, 1400);
+            Stock producto4 = new Stock(4, "Pan Integral", 30, 2100);
+            Stock producto5 = new Stock(5, "Maple de huevos", 10, 3800);
+
+            listaProductosActual.Add(producto1);
+            listaProductosActual.Add(producto2);
+            listaProductosActual.Add(producto3);
+            listaProductosActual.Add(producto4);
+            listaProductosActual.Add(producto5);
 
             ApplicationConfiguration.Initialize(); 
+
             // arranco la aplicación con cuentas para que me tome los usuarios
             Application.Run(new menu_bienvenida(listaEmpleados));
 

@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v8.0": {
       "RestoApp/1.0.0": {
         "dependencies": {
+          "administracion": "1.0.0",
           "usuarios": "1.0.0"
         },
         "runtime": {
           "RestoApp.dll": {}
+        }
+      },
+      "administracion/1.0.0": {
+        "runtime": {
+          "administracion.dll": {}
         }
       },
       "usuarios/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "RestoApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "administracion/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

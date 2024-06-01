@@ -30,18 +30,22 @@ namespace RestoApp
             if (comboBox1.SelectedItem != null && comboBox1.SelectedItem != "")
             {
                 string nombreEmpleadoN = comboBox1.SelectedItem.ToString();
+
                 Empleado empleadoN = _listaEmpleados.FirstOrDefault(emp => (emp.obtenerDatos("nombre")) == nombreEmpleadoN);
 
-                DialogResult result = MessageBox.Show($"¿Desea continuar con el pago del sueldo a {nombreEmpleadoN}?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                string sueldoEmpleadoN = empleadoN.obtenerDatos("sueldo").ToString();
+
+                DialogResult result = MessageBox.Show($"¿Desea continuar con el pago mensual de ${sueldoEmpleadoN} para {nombreEmpleadoN}?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 // filtro el tipo a "IEncargado" y devuelvo el primer tipo que concida con la condición
                 IEncargado encargado = _listaEmpleados.OfType<IEncargado>().FirstOrDefault();
 
                 if (result == DialogResult.Yes)
                 {
                     encargado.pagarSueldoMensual(empleadoN);
-                    MessageBox.Show($"El sueldo ha sido depositado a {nombreEmpleadoN} con éxito");
+                    MessageBox.Show($"El sueldo ha sido depositado a {nombreEmpleadoN} con éxito.");
                     comboBox1.Items.Remove(nombreEmpleadoN);
 
+                    // si ya no hay más items en el combobox, agregar un ítem vacío y seleccionarlo para evitar que quede el último ítem activo
                     if (comboBox1.Items.Count == 0)
                     {
                         comboBox1.Items.Add("");

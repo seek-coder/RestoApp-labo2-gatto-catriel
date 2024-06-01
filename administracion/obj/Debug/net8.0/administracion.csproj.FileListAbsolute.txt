@@ -1,0 +1,11 @@
+D:\csharp_code\TP1_programacion2\administracion\bin\Debug\net8.0\administracion.deps.json
+D:\csharp_code\TP1_programacion2\administracion\bin\Debug\net8.0\administracion.dll
+D:\csharp_code\TP1_programacion2\administracion\bin\Debug\net8.0\administracion.pdb
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\administracion.GeneratedMSBuildEditorConfig.editorconfig
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\administracion.AssemblyInfoInputs.cache
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\administracion.AssemblyInfo.cs
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\administracion.csproj.CoreCompileInputs.cache
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\administracion.dll
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\refint\administracion.dll
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\administracion.pdb
+D:\csharp_code\TP1_programacion2\administracion\obj\Debug\net8.0\ref\administracion.dll
