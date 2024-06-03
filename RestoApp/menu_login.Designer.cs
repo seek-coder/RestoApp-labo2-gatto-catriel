@@ -127,21 +127,25 @@
             // 
             // button1
             // 
+            button1.Font = new Font("JetBrains Mono", 9.75F);
             button1.Location = new Point(114, 443);
             button1.Name = "button1";
             button1.Size = new Size(167, 44);
             button1.TabIndex = 8;
-            button1.Text = "Ingresar";
+            button1.Text = "Ingresar    ";
+            button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
             // button2
             // 
+            button2.Font = new Font("JetBrains Mono", 9.75F);
             button2.Location = new Point(114, 493);
             button2.Name = "button2";
             button2.Size = new Size(167, 44);
             button2.TabIndex = 9;
-            button2.Text = "Salir";
+            button2.Text = "Atrás     ";
+            button2.TextAlign = ContentAlignment.MiddleRight;
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 

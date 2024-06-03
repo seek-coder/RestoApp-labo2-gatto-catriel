@@ -1,3 +1,4 @@
+using administracion;
 using System.Collections.Generic;
 using usuarios;
 
@@ -7,12 +8,15 @@ namespace RestoApp
     {
         private menu_login _login;
         private List<Empleado> listaEmpleados;
-        public menu_bienvenida(List<Empleado> empleados)
+        private List<Stock> _listaProductos;
+        private List<Arca> _listaArcas;
+        public menu_bienvenida(List<Empleado> empleados, List<Stock> listaProductos, List<Arca> listaArcas)
         {
             InitializeComponent();
-            // _cuentas = cuentas;
-            listaEmpleados = empleados;
-            _login = new menu_login(listaEmpleados);
+            this.listaEmpleados = empleados;
+            this._listaProductos = listaProductos;
+            this._login = new menu_login(listaEmpleados, listaProductos, listaArcas);
+            _listaArcas = listaArcas;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -50,7 +54,6 @@ namespace RestoApp
             this.Hide();
             _login.Show();
         }
-
 
         private void button1_Click_1(object sender, EventArgs e)
         {

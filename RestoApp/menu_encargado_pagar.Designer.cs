@@ -81,6 +81,7 @@
             Name = "menu_encargado_pagar";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pago de sueldo";
+            Load += menu_encargado_pagar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

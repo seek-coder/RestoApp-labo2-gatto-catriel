@@ -64,5 +64,10 @@ namespace RestoApp
         {
 
         }
+
+        private void menu_encargado_pagar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

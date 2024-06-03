@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using usuarios;
+using administracion;
 
 namespace RestoApp
 {
@@ -16,17 +17,39 @@ namespace RestoApp
     public partial class menu_encargado : Form
     {
         private menu_encargado_pagar _encargadoPagar;
-        private menu_login _login;
+        private menu_encargado_stock _encargadoStock;
+        private menu_encargado_saldo _encargadoSaldo;
+
         private string currentUserName;
         private List<Empleado> _listaEmpleados;
+        private menu_login _login;
+        private List<Stock> _listaProductosActual;
+        private List<Arca> _listaArcas;
 
-        public menu_encargado(menu_login login, List<Empleado> listaEmpleados, string currentUserName)
+        public menu_encargado(menu_login login, List<Empleado> listaEmpleados, string currentUserName,
+            List<Stock> listaProductos, List<Arca> listaArcas)
         {
             InitializeComponent();
             this._login = login;
             this.currentUserName = currentUserName;
             this._listaEmpleados = listaEmpleados;
             this._encargadoPagar = new menu_encargado_pagar(listaEmpleados);
+            this._encargadoStock = new menu_encargado_stock(listaProductos);
+            this._encargadoSaldo = new menu_encargado_saldo(listaArcas);
+            this._listaProductosActual = listaProductos;
+            _listaArcas = listaArcas;
+
+            // manejo cierre de forms y en su lugar oculto el form
+            this._encargadoPagar.FormClosing += new FormClosingEventHandler(Form_Closing);
+            this._encargadoStock.FormClosing += new FormClosingEventHandler(Form_Closing);
+            this._encargadoSaldo.FormClosing += new FormClosingEventHandler(Form_Closing);
+        }
+
+        // creo método para manejar cierre de forms
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;  // cancelo el cierre
+            ((Form)sender).Hide();  // oculto el form
         }
 
         // creo método para carga del form
@@ -34,7 +57,7 @@ namespace RestoApp
         {
             Empleado empleadoN = _listaEmpleados.FirstOrDefault(emp => emp.obtenerDatos("usuario").ToString() == currentUserName);
 
-            // Ahora puedes acceder a los datos del empleado1
+            // acceso a datos el empleadoN. Evalúo null porque sino me tira error
             if (empleadoN != null)
             {
                 string nombreEmpleadoN = empleadoN.obtenerDatos("nombre").ToString();
@@ -42,14 +65,11 @@ namespace RestoApp
                 string direccionEmpleadoN = empleadoN.obtenerDatos("direccion").ToString();
                 string contactoEmpleadoN = empleadoN.obtenerDatos("contacto").ToString();
 
-                // Puedes utilizar estos datos como desees, por ejemplo, mostrarlos en un MessageBox
                 label4.Text = $"Nombre: {nombreEmpleadoN}";
                 label5.Text = $"Apellido: {apellidoEmpleadoN}";
                 label6.Text = $"Dirección: {direccionEmpleadoN}";
                 label7.Text = $"Contacto: {contactoEmpleadoN}";
             }
-
-            //MessageBox.Show("Test");
         }
 
 
@@ -65,18 +85,38 @@ namespace RestoApp
 
         private void label4_Click(object sender, EventArgs e)
         {
-            // cambio el texto del label cuando el formulario se carga
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // quito el manejo cierre de forms´para que no me bloquee el cierre de la app
+            this._encargadoPagar.FormClosing -= new FormClosingEventHandler(Form_Closing);
+            this._encargadoStock.FormClosing -= new FormClosingEventHandler(Form_Closing);
+            this._encargadoSaldo.FormClosing -= new FormClosingEventHandler(Form_Closing);
+
             Application.Exit();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             _encargadoPagar.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _encargadoStock.Show();
+            // si lo cierro, tiene que ocultarse, no borrarse
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            _encargadoSaldo.Show();
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

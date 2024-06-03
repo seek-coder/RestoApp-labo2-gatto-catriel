@@ -89,6 +89,7 @@
             splitContainer1.Panel2.Controls.Add(label1);
             splitContainer1.Panel2.Controls.Add(label2);
             splitContainer1.Panel2.Controls.Add(pictureBox5);
+            splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
             splitContainer1.Size = new Size(900, 600);
             splitContainer1.SplitterDistance = 150;
             splitContainer1.SplitterWidth = 1;
@@ -141,9 +142,10 @@
             button3.Name = "button3";
             button3.Size = new Size(144, 43);
             button3.TabIndex = 14;
-            button3.Text = "Recaudar\r\n";
+            button3.Text = "Arcas";
             button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // pictureBox1
             // 
@@ -169,6 +171,7 @@
             button2.Text = "Ver stock";
             button2.TextAlign = ContentAlignment.MiddleRight;
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // pictureBox3
             // 

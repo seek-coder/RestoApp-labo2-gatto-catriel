@@ -46,10 +46,12 @@ namespace RestoApp
             listaProductosActual.Add(producto4);
             listaProductosActual.Add(producto5);
 
+            List<Arca> listaArcas = new List<Arca>();
+
             ApplicationConfiguration.Initialize(); 
 
             // arranco la aplicación con cuentas para que me tome los usuarios
-            Application.Run(new menu_bienvenida(listaEmpleados));
+            Application.Run(new menu_bienvenida(listaEmpleados, listaProductosActual, listaArcas));
 
         }
     }

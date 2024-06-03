@@ -9,21 +9,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using usuarios;
+using administracion;
 
 namespace RestoApp
 {
     
     public partial class menu_login : Form
     {
-        // private Cuentas _cuentas;
         private List<Empleado> _listaEmpleados;
+        private List<Stock> _listaProductosActual;
+        private List<Arca> _listaArcas;
         public string usernameActual = "¿Nombre?";
         string rol;
 
-        public menu_login(List<Empleado> listaEmpleados)
+        public menu_login(List<Empleado> listaEmpleados, List<Stock> listaProductos, List<Arca> listaArcas)
         {
             InitializeComponent();
             this._listaEmpleados = listaEmpleados;
+            this._listaProductosActual = listaProductos;
+            this._listaArcas = listaArcas;
         }
 
         private void menu_login_Load(object sender, EventArgs e)
@@ -39,7 +43,7 @@ namespace RestoApp
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu_bienvenida main = new menu_bienvenida(_listaEmpleados);
+            menu_bienvenida main = new menu_bienvenida(_listaEmpleados, _listaProductosActual, _listaArcas);
             main.Show();
         }
 
@@ -66,18 +70,45 @@ namespace RestoApp
 
             if (!usuarioEncontrado)
             {
-                MessageBox.Show("Usuario o contraseña incorrectos");
+                MessageBox.Show("Usuario o contraseña incorrectos.");
                 this.username.Text = "";
                 this.password.Text = "";
             } 
             else
             {
-                if(rol == "encargado")
+                this.Hide();
+                menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas);
+
+                // acá creo los forms directamente con acciones del usuario y NO en los constructores porque me parece más rápido en este caso,
+                // donde no tengo que preocuparme por tanto manejo de datos (tengo en cuenta sólo los roles).
+                if (rol == "encargado")
                 {
-                    this.Hide();
-                    menu_login login = new menu_login(_listaEmpleados);
-                    menu_encargado encargadoForm = new menu_encargado(login, this._listaEmpleados, usernameActual);
+                    menu_encargado encargadoForm = new menu_encargado(login, this._listaEmpleados, usernameActual,
+                        this._listaProductosActual, this._listaArcas);
                     encargadoForm.Show();
+                }
+
+                else if (rol == "mesero")
+                {
+                    menu_mesero meseroForm = new menu_mesero(); // ver parámetros
+                    meseroForm.Show();
+                }
+
+                else if (rol == "cocinero")
+                {
+                    menu_cocinero cocineroForm = new menu_cocinero(login, this._listaEmpleados, usernameActual);
+                    cocineroForm.Show();
+                }
+
+                else if (rol == "delivery")
+                {
+                    menu_delivery deliveryForm = new menu_delivery(); // ver parámetros
+                    deliveryForm.Show();
+                }
+
+                else
+                {
+                    throw new ArgumentException("Rol inválido.");
                 }
             }
 
@@ -103,6 +134,12 @@ namespace RestoApp
 
         }
 
-        //public string getCurrentUsername() { return usernameActual; }
+        /*
+         * 
+         * Hecho con mucho amor y dedicación
+         * por Catriel Gatto, en el 2024,
+         * mientras estudiaba para programación II <3
+         * 
+         */
     }
 }
