@@ -19,5 +19,10 @@ namespace RestoApp
             InitializeComponent();
             this._listaArcas = listaArcas;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

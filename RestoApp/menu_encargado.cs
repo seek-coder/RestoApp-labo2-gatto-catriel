@@ -19,15 +19,17 @@ namespace RestoApp
         private menu_encargado_pagar _encargadoPagar;
         private menu_encargado_stock _encargadoStock;
         private menu_encargado_saldo _encargadoSaldo;
+        private menu_encargado_proveedores _encargadoProveedor;
 
         private string currentUserName;
         private List<Empleado> _listaEmpleados;
         private menu_login _login;
         private List<Stock> _listaProductosActual;
         private List<Arca> _listaArcas;
+        private List<Proveedor> _listaProveedores;
 
         public menu_encargado(menu_login login, List<Empleado> listaEmpleados, string currentUserName,
-            List<Stock> listaProductos, List<Arca> listaArcas)
+            List<Stock> listaProductos, List<Arca> listaArcas, List<Proveedor> listaProveedores)
         {
             InitializeComponent();
             this._login = login;
@@ -36,13 +38,17 @@ namespace RestoApp
             this._encargadoPagar = new menu_encargado_pagar(listaEmpleados);
             this._encargadoStock = new menu_encargado_stock(listaProductos);
             this._encargadoSaldo = new menu_encargado_saldo(listaArcas);
+            this._encargadoProveedor = new menu_encargado_proveedores(listaProveedores);
             this._listaProductosActual = listaProductos;
-            _listaArcas = listaArcas;
+            this._listaArcas = listaArcas;
+            this._listaProveedores = listaProveedores;
 
             // manejo cierre de forms y en su lugar oculto el form
             this._encargadoPagar.FormClosing += new FormClosingEventHandler(Form_Closing);
             this._encargadoStock.FormClosing += new FormClosingEventHandler(Form_Closing);
             this._encargadoSaldo.FormClosing += new FormClosingEventHandler(Form_Closing);
+            this._encargadoProveedor.FormClosing += new FormClosingEventHandler(Form_Closing);
+
         }
 
         // creo método para manejar cierre de forms
@@ -94,6 +100,7 @@ namespace RestoApp
             this._encargadoPagar.FormClosing -= new FormClosingEventHandler(Form_Closing);
             this._encargadoStock.FormClosing -= new FormClosingEventHandler(Form_Closing);
             this._encargadoSaldo.FormClosing -= new FormClosingEventHandler(Form_Closing);
+            this._encargadoProveedor.FormClosing -= new FormClosingEventHandler(Form_Closing);
 
             Application.Exit();
         }
@@ -106,7 +113,6 @@ namespace RestoApp
         private void button2_Click(object sender, EventArgs e)
         {
             _encargadoStock.Show();
-            // si lo cierro, tiene que ocultarse, no borrarse
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -117,6 +123,11 @@ namespace RestoApp
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            _encargadoProveedor.Show();
         }
     }
 }

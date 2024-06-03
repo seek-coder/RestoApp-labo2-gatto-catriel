@@ -23,5 +23,29 @@ namespace RestoApp
             this._listaEmpleados = listaEmpleados;
             this._login = login;
         }
+
+        private void menu_cocinero_Load(object sender, EventArgs e)
+        {
+            Empleado empleadoN = _listaEmpleados.FirstOrDefault(emp => emp.obtenerDatos("usuario").ToString() == currentUserName);
+
+            // acceso a datos el empleadoN. Evalúo null porque sino me tira error
+            if (empleadoN != null)
+            {
+                string nombreEmpleadoN = empleadoN.obtenerDatos("nombre").ToString();
+                string apellidoEmpleadoN = empleadoN.obtenerDatos("apellido").ToString();
+                string direccionEmpleadoN = empleadoN.obtenerDatos("direccion").ToString();
+                string contactoEmpleadoN = empleadoN.obtenerDatos("contacto").ToString();
+
+                label4.Text = $"Nombre: {nombreEmpleadoN}";
+                label5.Text = $"Apellido: {apellidoEmpleadoN}";
+                label6.Text = $"Dirección: {direccionEmpleadoN}";
+                label7.Text = $"Contacto: {contactoEmpleadoN}";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

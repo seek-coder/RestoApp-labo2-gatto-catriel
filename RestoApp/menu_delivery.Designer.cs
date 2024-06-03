@@ -35,6 +35,7 @@
             pictureBox3 = new PictureBox();
             button1 = new Button();
             pictureBox4 = new PictureBox();
+            label8 = new Label();
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
@@ -43,7 +44,6 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox5 = new PictureBox();
-            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -135,6 +135,7 @@
             button1.Text = "Salir";
             button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox4
             // 
@@ -145,6 +146,19 @@
             pictureBox4.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox4.TabIndex = 9;
             pictureBox4.TabStop = false;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = SystemColors.HighlightText;
+            label8.Font = new Font("JetBrains Mono", 8.249999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(74, 346);
+            label8.Name = "label8";
+            label8.RightToLeft = RightToLeft.No;
+            label8.Size = new Size(595, 14);
+            label8.TabIndex = 19;
+            label8.Text = "ADVERTENCIA PARA LOS DELIVERY: usar este panel sólo bajo supervisión de un encargado";
+            label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -227,19 +241,6 @@
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = SystemColors.HighlightText;
-            label8.Font = new Font("JetBrains Mono", 8.249999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(74, 346);
-            label8.Name = "label8";
-            label8.RightToLeft = RightToLeft.No;
-            label8.Size = new Size(595, 14);
-            label8.TabIndex = 19;
-            label8.Text = "ADVERTENCIA PARA LOS DELIVERY: usar este panel sólo bajo supervisión de un encargado";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // menu_delivery
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -249,6 +250,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "menu_delivery";
             Text = "Form1";
+            Shown += menu_delivery_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();

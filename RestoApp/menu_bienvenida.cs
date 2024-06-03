@@ -10,13 +10,15 @@ namespace RestoApp
         private List<Empleado> listaEmpleados;
         private List<Stock> _listaProductos;
         private List<Arca> _listaArcas;
-        public menu_bienvenida(List<Empleado> empleados, List<Stock> listaProductos, List<Arca> listaArcas)
+        private List<Proveedor> _listaProveedores;
+        public menu_bienvenida(List<Empleado> empleados, List<Stock> listaProductos, List<Arca> listaArcas, List<Proveedor> listaProveedores)
         {
             InitializeComponent();
             this.listaEmpleados = empleados;
             this._listaProductos = listaProductos;
-            this._login = new menu_login(listaEmpleados, listaProductos, listaArcas);
-            _listaArcas = listaArcas;
+            this._login = new menu_login(listaEmpleados, listaProductos, listaArcas, listaProveedores);
+            this._listaArcas = listaArcas;
+            this._listaProveedores = listaProveedores;
         }
 
         private void Form1_Load(object sender, EventArgs e)

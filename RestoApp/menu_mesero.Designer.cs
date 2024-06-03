@@ -133,6 +133,7 @@
             button1.Text = "Salir";
             button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox4
             // 
@@ -235,6 +236,7 @@
             Name = "menu_mesero";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Shown += menu_mesero_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();

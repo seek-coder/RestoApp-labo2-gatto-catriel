@@ -53,6 +53,7 @@
             button4.TabIndex = 20;
             button4.Text = "Consultar";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // comboBox1
             // 
