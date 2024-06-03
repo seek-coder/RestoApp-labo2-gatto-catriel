@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://raw.githubusercontent.com/seek-coder/RestoApp-labo2-gatto-catriel/main/utils/RestoApp_ico.png?token=GHSAT0AAAAAACQJDXO4JEMTMGT7WA3PXHT6ZSY7LOA" alt="Logo" width="174" height="175">
+    <img src="https://github.com/seek-coder/RestoApp-labo2-gatto-catriel/assets/130781541/da56cf22-8e05-454f-97fe-a5ebd4456869" alt="Logo" width="174" height="175">
   </a>
 
   <h3 align="center">RestoApp</h3>
@@ -18,7 +18,9 @@
     <a href="https://github.com/seek-coder/RestoApp-labo2-gatto-catriel/issues">Issues / Reportar Bug</a>
     ·
     <a href="https://learn.microsoft.com/es-es/dotnet/csharp/">Ver documentación de C#</a>
-  </p>
+    ·
+    <a href="https://fonts.google.com/icons">Iconos utilizados</a>
+
 </div>
 
 ## Sobre el proyecto
@@ -39,3 +41,4 @@ Con **RestoApp**, los propietarios y gerentes de restaurantes pueden optimizar s
 
 * C#
 * .NET 8.0
+* Aseprite
