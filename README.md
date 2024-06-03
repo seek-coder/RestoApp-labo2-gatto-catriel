@@ -41,4 +41,6 @@ Con **RestoApp**, los propietarios y gerentes de restaurantes pueden optimizar s
 
 * C#
 * .NET 8.0
-* Aseprite
+* Aseprite (para logos)
+* Trello (para organización de tareas)
+* Draw.io (para UML)
