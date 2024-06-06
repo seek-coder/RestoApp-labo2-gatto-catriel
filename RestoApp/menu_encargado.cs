@@ -35,8 +35,8 @@ namespace RestoApp
             this._login = login;
             this.currentUserName = currentUserName;
             this._listaEmpleados = listaEmpleados;
-            this._encargadoPagar = new menu_encargado_pagar(listaEmpleados);
-            this._encargadoStock = new menu_encargado_stock(listaProductos);
+            this._encargadoPagar = new menu_encargado_pagar(listaEmpleados, listaArcas);
+            this._encargadoStock = new menu_encargado_stock(listaProductos, listaArcas, listaEmpleados, listaProveedores);
             this._encargadoSaldo = new menu_encargado_saldo(listaArcas);
             this._encargadoProveedor = new menu_encargado_proveedores(listaProveedores);
             this._listaProductosActual = listaProductos;

@@ -8,16 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using usuarios;
+using administracion;
 
 namespace RestoApp
 {
     public partial class menu_encargado_pagar : Form
     {
         private List<Empleado> _listaEmpleados;
-        public menu_encargado_pagar(List<Empleado> listaEmpleados)
+        private List<Arca> _listaArcas;
+        public menu_encargado_pagar(List<Empleado> listaEmpleados, List<Arca> listaArcas)
         {
             InitializeComponent();
             this._listaEmpleados = listaEmpleados;
+            this._listaArcas = listaArcas;
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -36,12 +39,14 @@ namespace RestoApp
                 string sueldoEmpleadoN = empleadoN.obtenerDatos("sueldo").ToString();
 
                 DialogResult result = MessageBox.Show($"¿Desea continuar con el pago mensual de ${sueldoEmpleadoN} para {nombreEmpleadoN}?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                
                 // filtro el tipo a "IEncargado" y devuelvo el primer tipo que concida con la condición
                 IEncargado encargado = _listaEmpleados.OfType<IEncargado>().FirstOrDefault();
 
                 if (result == DialogResult.Yes)
                 {
-                    encargado.pagarSueldoMensual(empleadoN);
+                    // pago el sueldo y lo resto del arca, que en este caso es la única que existe (la primera)
+                    encargado.pagarSueldoMensual(empleadoN, _listaArcas[0]);
                     MessageBox.Show($"El sueldo ha sido depositado a {nombreEmpleadoN} con éxito.");
                     comboBox1.Items.Remove(nombreEmpleadoN);
 

@@ -10,7 +10,7 @@ namespace administracion
     {
         private int _id;
         private string _nombre;
-        private int _unidadesDisponibles;
+        private int _unidadesDisponibles; // 100g = 1 unidad
         private double _precioPorUnidad;
 
         public Stock(int id, string nombre, int unidadesDisponibles, double precioPorUnidad)

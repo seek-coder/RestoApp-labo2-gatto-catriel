@@ -157,7 +157,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj": {
+                "projectPath": "D:\\csharp_code\\TP1_programacion2\\administracion\\administracion.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

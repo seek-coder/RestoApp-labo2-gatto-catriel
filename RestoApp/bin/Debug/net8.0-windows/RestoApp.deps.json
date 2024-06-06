@@ -21,6 +21,9 @@
         }
       },
       "usuarios/1.0.0": {
+        "dependencies": {
+          "administracion": "1.0.0"
+        },
         "runtime": {
           "usuarios.dll": {}
         }

@@ -20,16 +20,22 @@ namespace RestoApp
         private List<Stock> _listaProductosActual;
         private List<Arca> _listaArcas;
         private List<Proveedor> _listaProveedores;
+        private List<Plato> _listaPlatos;
+        private List<Mesa> _listaMesas;
+
         public string usernameActual = "¿Nombre?";
         string rol;
 
-        public menu_login(List<Empleado> listaEmpleados, List<Stock> listaProductos, List<Arca> listaArcas, List<Proveedor> listaProveedores)
+        public menu_login(List<Empleado> listaEmpleados, List<Stock> listaProductos, List<Arca> listaArcas,
+            List<Proveedor> listaProveedores, List<Plato> listaPlatos, List<Mesa> listaMesas)
         {
             InitializeComponent();
             this._listaEmpleados = listaEmpleados;
             this._listaProductosActual = listaProductos;
             this._listaArcas = listaArcas;
             this._listaProveedores = listaProveedores;
+            this._listaPlatos = listaPlatos;
+            this._listaMesas = listaMesas;
         }
 
         private void menu_login_Load(object sender, EventArgs e)
@@ -45,7 +51,8 @@ namespace RestoApp
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu_bienvenida main = new menu_bienvenida(_listaEmpleados, _listaProductosActual, _listaArcas, _listaProveedores);
+            menu_bienvenida main = new menu_bienvenida(_listaEmpleados, _listaProductosActual, _listaArcas,
+                _listaProveedores, _listaPlatos, _listaMesas);
             main.Show();
         }
 
@@ -79,32 +86,33 @@ namespace RestoApp
             else
             {
                 this.Hide();
-                menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas, _listaProveedores);
+                menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas,
+                    _listaProveedores, _listaPlatos, _listaMesas);
 
                 // acá creo los forms directamente con acciones del usuario y NO en los constructores porque me parece más rápido en este caso,
                 // donde no tengo que preocuparme por tanto manejo de datos (tengo en cuenta sólo los roles).
                 if (rol == "encargado")
                 {
-                    menu_encargado encargadoForm = new menu_encargado(login, this._listaEmpleados, usernameActual,
-                        this._listaProductosActual, this._listaArcas, this._listaProveedores);
+                    menu_encargado encargadoForm = new menu_encargado(login, _listaEmpleados, usernameActual,
+                        _listaProductosActual, _listaArcas, _listaProveedores);
                     encargadoForm.Show();
                 }
 
                 else if (rol == "mesero")
                 {
-                    menu_mesero meseroForm = new menu_mesero(login, this._listaEmpleados, usernameActual);
+                    menu_mesero meseroForm = new menu_mesero(login, _listaEmpleados, usernameActual, _listaMesas);
                     meseroForm.Show();
                 }
 
                 else if (rol == "cocinero")
                 {
-                    menu_cocinero cocineroForm = new menu_cocinero(login, this._listaEmpleados, usernameActual);
+                    menu_cocinero cocineroForm = new menu_cocinero(login, _listaEmpleados, usernameActual, _listaPlatos);
                     cocineroForm.Show();
                 }
 
                 else if (rol == "delivery")
                 {
-                    menu_delivery deliveryForm = new menu_delivery(login, this._listaEmpleados, usernameActual);
+                    menu_delivery deliveryForm = new menu_delivery(login, _listaEmpleados, usernameActual);
                     deliveryForm.Show();
                 }
 

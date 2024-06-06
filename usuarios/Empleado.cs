@@ -1,5 +1,6 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Security.Cryptography;
+using administracion;
 
 namespace usuarios
 {
@@ -55,24 +56,52 @@ namespace usuarios
             }
         }
 
-        bool ICocinero.cocinar()
+
+        bool ICocinero.cocinar(Plato plato)
         {
             throw new NotImplementedException();
         }
 
-        string ICocinero.describrirPlato()
+        Stock IEncargado.consultarStockActual()
         {
             throw new NotImplementedException();
         }
 
-        void ICocinero.eliminarPlato()
+        Stock IEncargado.consultarStockAnterior()
         {
             throw new NotImplementedException();
         }
 
-        double IEncargado.pagarSueldoMensual(Empleado empleado)
+        Plato ICocinero.crearPlato(Plato plato)
+        {
+            throw new NotImplementedException();
+        }
+
+        string ICocinero.describrirPlato(Plato plato)
+        {
+            throw new NotImplementedException();
+        }
+
+        void ICocinero.eliminarPlato(Plato plato)
+        {
+            throw new NotImplementedException();
+        }
+
+        Plato ICocinero.modificarPlato(Plato plato)
+        {
+            throw new NotImplementedException();
+        }
+
+        double IEncargado.pagarProveedores(Proveedor proveedor, Arca arca, double monto)
+        {
+            arca.restarSaldo(monto);
+            return arca.obtenerSaldo();
+        }
+
+        double IEncargado.pagarSueldoMensual(Empleado empleado, Arca arca)
         {
             empleado._cobroSueldo = true;
+            arca.restarSaldo(empleado._sueldo);
             return empleado._sueldo;
         }
 

@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using usuarios;
+using administracion;
 
 namespace RestoApp
 {
@@ -15,13 +16,17 @@ namespace RestoApp
     {
         private string currentUserName;
         private List<Empleado> _listaEmpleados;
+        private List<Mesa> _listaMesas;
         private menu_login _login;
-        public menu_mesero(menu_login login, List<Empleado> listaEmpleados, string currentUserName)
+        private menu_mesero_mesas _meseroMesas;
+        public menu_mesero(menu_login login, List<Empleado> listaEmpleados, string currentUserName, List<Mesa> listaMesas)
         {
             InitializeComponent();
             this.currentUserName = currentUserName;
             this._login = login;
             this._listaEmpleados = listaEmpleados;
+            this._listaMesas = listaMesas;
+            this._meseroMesas = new menu_mesero_mesas(listaMesas);
         }
 
         private void menu_mesero_Load(object sender, EventArgs e)
@@ -46,6 +51,11 @@ namespace RestoApp
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _meseroMesas.Show();
         }
     }
 }

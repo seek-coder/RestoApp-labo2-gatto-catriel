@@ -46,6 +46,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(543, 251);
             dataGridView1.TabIndex = 2;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // product_type
             // 
@@ -72,7 +73,7 @@
             direccion.HeaderText = "DIRECCIÓN";
             direccion.Name = "direccion";
             // 
-            // menu_encargados_proveedores
+            // menu_encargado_proveedores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -81,7 +82,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "menu_encargados_proveedores";
+            Name = "menu_encargado_proveedores";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
