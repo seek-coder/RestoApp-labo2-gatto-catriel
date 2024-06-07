@@ -107,6 +107,15 @@ namespace RestoApp
             listaMesas.Add(mesa2);
             listaMesas.Add(mesa3);
 
+            // LISTA DE PEDIDOS //
+            // --------------- //
+
+            List<Pedido> listaPedidos = new List<Pedido>();
+
+            Pedido pedido1 = new Pedido(1, "Tomás");
+
+            listaPedidos.Add(pedido1);
+
             // INICIO DE APLICACIÓN //
             // -------------------- //
 
@@ -114,7 +123,7 @@ namespace RestoApp
 
             // arranco la aplicación con cuentas para que me tome los usuarios
             Application.Run(new menu_bienvenida(listaEmpleados, listaProductosActual, listaArcas,
-                listaProveedores, listaPlatos, listaMesas));
+                listaProveedores, listaPlatos, listaMesas, listaPedidos));
 
         }
     }

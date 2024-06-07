@@ -1,4 +1,5 @@
-﻿using System;
+﻿using administracion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,13 +16,17 @@ namespace RestoApp
     {
         private string currentUserName;
         private List<Empleado> _listaEmpleados;
+        private List<Pedido> _listaPedidos;
+
+        private menu_delivery_pedidos _deliveryPedidos;
         private menu_login _login;
-        public menu_delivery(menu_login login, List<Empleado> listaEmpleados, string currentUserName)
+        public menu_delivery(menu_login login, List<Empleado> listaEmpleados, string currentUserName, List<Pedido> listaPedidos)
         {
             InitializeComponent();
             this.currentUserName = currentUserName;
             this._login = login;
             this._listaEmpleados = listaEmpleados;
+            this._deliveryPedidos = new menu_delivery_pedidos(listaPedidos);
         }
         private void menu_delivery_Load(object sender, EventArgs e)
         {
@@ -45,6 +50,12 @@ namespace RestoApp
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            _deliveryPedidos.Show();
         }
     }
 }

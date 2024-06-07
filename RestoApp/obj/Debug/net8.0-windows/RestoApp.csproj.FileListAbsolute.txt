@@ -55,3 +55,4 @@ D:\csharp_code\TP1_programacion2\RestoApp\obj\Debug\net8.0-windows\RestoApp.menu
 D:\csharp_code\TP1_programacion2\RestoApp\obj\Debug\net8.0-windows\RestoApp.menu_encargado_proveedores.resources
 D:\csharp_code\TP1_programacion2\RestoApp\obj\Debug\net8.0-windows\RestoApp.menu_cocinero_platos.resources
 D:\csharp_code\TP1_programacion2\RestoApp\obj\Debug\net8.0-windows\RestoApp.menu_mesero_mesas.resources
+D:\csharp_code\TP1_programacion2\RestoApp\obj\Debug\net8.0-windows\RestoApp.menu_delivery_pedidos.resources

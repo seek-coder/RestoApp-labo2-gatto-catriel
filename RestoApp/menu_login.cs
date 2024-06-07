@@ -21,13 +21,14 @@ namespace RestoApp
         private List<Arca> _listaArcas;
         private List<Proveedor> _listaProveedores;
         private List<Plato> _listaPlatos;
+        private List<Pedido> _listaPedidos;
         private List<Mesa> _listaMesas;
 
         public string usernameActual = "¿Nombre?";
         string rol;
 
         public menu_login(List<Empleado> listaEmpleados, List<Stock> listaProductos, List<Arca> listaArcas,
-            List<Proveedor> listaProveedores, List<Plato> listaPlatos, List<Mesa> listaMesas)
+            List<Proveedor> listaProveedores, List<Plato> listaPlatos, List<Mesa> listaMesas, List<Pedido> listaPedidos)
         {
             InitializeComponent();
             this._listaEmpleados = listaEmpleados;
@@ -36,6 +37,7 @@ namespace RestoApp
             this._listaProveedores = listaProveedores;
             this._listaPlatos = listaPlatos;
             this._listaMesas = listaMesas;
+            this._listaPedidos = listaPedidos;
         }
 
         private void menu_login_Load(object sender, EventArgs e)
@@ -52,7 +54,7 @@ namespace RestoApp
         {
             this.Hide();
             menu_bienvenida main = new menu_bienvenida(_listaEmpleados, _listaProductosActual, _listaArcas,
-                _listaProveedores, _listaPlatos, _listaMesas);
+                _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
             main.Show();
         }
 
@@ -87,7 +89,7 @@ namespace RestoApp
             {
                 this.Hide();
                 menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas,
-                    _listaProveedores, _listaPlatos, _listaMesas);
+                    _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
 
                 // acá creo los forms directamente con acciones del usuario y NO en los constructores porque me parece más rápido en este caso,
                 // donde no tengo que preocuparme por tanto manejo de datos (tengo en cuenta sólo los roles).
@@ -112,7 +114,7 @@ namespace RestoApp
 
                 else if (rol == "delivery")
                 {
-                    menu_delivery deliveryForm = new menu_delivery(login, _listaEmpleados, usernameActual);
+                    menu_delivery deliveryForm = new menu_delivery(login, _listaEmpleados, usernameActual, _listaPedidos);
                     deliveryForm.Show();
                 }
 

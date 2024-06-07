@@ -32,6 +32,7 @@
             ID = new DataGridViewTextBoxColumn();
             capacidad = new DataGridViewTextBoxColumn();
             mesero = new DataGridViewTextBoxColumn();
+            ocupada = new DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -39,10 +40,10 @@
             // 
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, capacidad, mesero });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, capacidad, mesero, ocupada });
             dataGridView1.Location = new Point(12, 11);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(345, 251);
+            dataGridView1.Size = new Size(447, 251);
             dataGridView1.TabIndex = 2;
             // 
             // ID
@@ -60,11 +61,16 @@
             mesero.HeaderText = "MESERO";
             mesero.Name = "mesero";
             // 
+            // ocupada
+            // 
+            ocupada.HeaderText = "OCUPADA";
+            ocupada.Name = "ocupada";
+            // 
             // menu_mesero_mesas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(373, 274);
+            ClientSize = new Size(465, 274);
             Controls.Add(dataGridView1);
             MaximizeBox = false;
             MinimizeBox = false;
@@ -80,5 +86,6 @@
         private DataGridViewTextBoxColumn ID;
         private DataGridViewTextBoxColumn capacidad;
         private DataGridViewTextBoxColumn mesero;
+        private DataGridViewCheckBoxColumn ocupada;
     }
 }
