@@ -19,14 +19,19 @@ namespace RestoApp
         private List<Mesa> _listaMesas;
         private menu_login _login;
         private menu_mesero_mesas _meseroMesas;
-        public menu_mesero(menu_login login, List<Empleado> listaEmpleados, string currentUserName, List<Mesa> listaMesas)
+        private List<Plato> _listaPlatos;
+        private Arca _arca;
+        public menu_mesero(menu_login login, List<Empleado> listaEmpleados, string currentUserName,
+            List<Mesa> listaMesas, Arca arca, List<Plato> listaPlatos)
         {
             InitializeComponent();
             this.currentUserName = currentUserName;
             this._login = login;
             this._listaEmpleados = listaEmpleados;
             this._listaMesas = listaMesas;
-            this._meseroMesas = new menu_mesero_mesas(listaMesas);
+            this._meseroMesas = new menu_mesero_mesas(listaMesas, arca, listaPlatos);
+            this._arca = arca;
+            this._listaPlatos = listaPlatos;
         }
 
         private void menu_mesero_Load(object sender, EventArgs e)

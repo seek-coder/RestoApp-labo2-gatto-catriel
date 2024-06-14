@@ -12,8 +12,8 @@ namespace usuarios
         bool cocinar(Plato plato);
         Plato crearPlato(Plato plato);
         Plato modificarPlato(Plato plato);
-        void eliminarPlato(Plato plato);
         string describrirPlato(Plato plato);
+        void eliminarPlato(List<Plato> listaPlatos, Plato plato);
     }
 
 }

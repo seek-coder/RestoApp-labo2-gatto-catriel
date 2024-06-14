@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KqRR6mZeyyBf/9y4HY4Qjarg/h1ZouaVYsiKn3pl88ZiL0WLtPbh8DU8j6/hm9J1rVLCsmbGJhtV4s8GOwHk8A==",
+  "dgSpecHash": "QyZ0xd0/ok1MPVFGXwDQbd0rA01dknxofyDltTaLRRt9UfQRSR4s708JREbGhuHm1s8RNOhey1cuGteoMlDFoA==",
   "success": true,
   "projectFilePath": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\RestoApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Catriel\\.nuget\\packages\\mstest.testframework\\3.4.3\\mstest.testframework.3.4.3.nupkg.sha512"
+  ],
   "logs": []
 }

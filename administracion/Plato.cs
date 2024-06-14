@@ -9,11 +9,11 @@ namespace administracion
     public class Plato
     {
         private string _nombre;
-        private float _precio;
+        private double _precio;
         private Dictionary<string, int> _ingredientes;
         private int _tiempoPreparacionEnMin;
 
-        public Plato(string nombre, float precio, Dictionary<string, int> ingredientes, int tiempoPreparacionEnMin)
+        public Plato(string nombre, double precio, Dictionary<string, int> ingredientes, int tiempoPreparacionEnMin)
         {
             this._nombre = nombre;
             this._precio = precio;

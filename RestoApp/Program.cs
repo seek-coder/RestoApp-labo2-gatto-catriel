@@ -12,11 +12,12 @@ namespace RestoApp
         static void Main()
         {
             // GESTIÓN DE EMPLEADOS // 
-           // -------------------- //
+            // -------------------- //
 
             List<Empleado> listaEmpleados = new List<Empleado>();
 
-            Empleado empleado1 = new Empleado("Catriel", "Gatto", "Alfa 123", 123456789, 600000, "encargado", "catriel", "clave1", false);
+            Empleado empleado1 = new Empleado("Catriel", "Gatto", "Alfa 123", 123456789, 600000, "encargado",
+                "catriel", "clave1", false);
             Empleado empleado2 = new Empleado("Denise", "Figueroa", "Beta 123", 123456788, 600000, "encargado", "denise", "clave2", false);
             Empleado empleado3 = new Empleado("Raúl", "Gímenez", "Gamma 123", 123456787, 200000, "mesero", "raul", "clave3", false);
             Empleado empleado4 = new Empleado("Damián", "Gómez", "Delta 123", 123456786, 350000, "cocinero", "damian", "clave4", false);
@@ -29,7 +30,7 @@ namespace RestoApp
             listaEmpleados.Add(empleado5);
 
             // ROLES //
-           // ----- //
+            // ----- //
 
             IEncargado encargado1 = empleado1;
             IEncargado encargado2 = empleado2;
@@ -38,28 +39,43 @@ namespace RestoApp
             IDelivery delivery1 = empleado5;
 
             // GESTIÓN DE ARCA //
-           // --------------- //
+            // --------------- //
 
             List<Arca> listaArcas = new List<Arca>();
             Arca arca1 = new Arca(3000000);
 
             listaArcas.Add(arca1);
 
+            // PRODUCTOS //
+            // --------- //
+
+            List<Producto> varios = new List<Producto>();
+            List<Producto> bebidas = new List<Producto>();
+            List<Producto> pastas = new List<Producto>();
+
+            Producto caramelos = new Producto("Caramelos dulces", 5, 20);
+            Producto cerveza = new Producto("Heineken", 2, 1500);
+            Producto fideosLargos = new Producto("Spaghetti", 20, 500);
+
+            varios.Add(caramelos);
+            bebidas.Add(cerveza);
+            pastas.Add(fideosLargos);
+
             // PROVEEDORES //
-           // ----------- //
+            // ----------- //
 
             List<Proveedor> listaProveedores = new List<Proveedor>();
 
-            Proveedor proveedor1 = new Proveedor("Varios", "Contado", "Juan Domingo", "199199234", "Por acá 1212", "Jueves", 300000);
-            Proveedor proveedor2 = new Proveedor("Bebidas", "Tarjeta", "Coco Colo", "199499234", "Por allá 1414", "Sábado", 900000);
-            Proveedor proveedor3 = new Proveedor("Pastas", "Transferencia", "Ayrton Senna", "199799234", "Por ahí 1616", "Lunes", 600000);
+            Proveedor proveedor1 = new Proveedor(varios, "Contado", "Juan Domingo", "199199234", "Por acá 1212", "Jueves", 300000);
+            Proveedor proveedor2 = new Proveedor(bebidas, "Tarjeta", "Coco Colo", "199499234", "Por allá 1414", "Sábado", 900000);
+            Proveedor proveedor3 = new Proveedor(pastas, "Transferencia", "Ayrton Senna", "199799234", "Por ahí 1616", "Lunes", 600000);
 
             listaProveedores.Add(proveedor1);
             listaProveedores.Add(proveedor2);
             listaProveedores.Add(proveedor3);
 
             // GESTIÓN DE STOCK //
-            // ---------------- //
+           // ---------------- //
 
             List<Stock> listaProductosActual = new List<Stock>();
 
@@ -82,9 +98,10 @@ namespace RestoApp
             listaProductosActual.Add(producto7);
 
             // LISTA DE PLATOS //
-            // --------------- //
+           // --------------- //
 
             List<Plato> listaPlatos = new List<Plato>();
+            List<Plato> listaPlatos2 = new List<Plato>();
 
             Plato plato1 = new Plato("Milanesas de pollo con puré de papas", 6800, new Dictionary<string, int> { { "Milanesas de pollo", 200 }, { "Papas", 300 }, { "Limón", 20 } }, 45);
             Plato plato2 = new Plato("Ñoquis", 5400, new Dictionary<string, int> { { "Harina de trigo", 150 }, { "Papas", 150 }, { "Salsa de tomate", 30 } }, 60);
@@ -94,30 +111,33 @@ namespace RestoApp
             listaPlatos.Add(plato2);
             listaPlatos.Add(plato3);
 
+            listaPlatos2.Add(plato1);
+            listaPlatos2.Add(plato2);
+
             // LISTA DE MESAS //
-            // --------------- //
+           // -------------- //
 
             List<Mesa> listaMesas = new List<Mesa>();
 
-            Mesa mesa1 = new Mesa(1, 6, "Raúl");
-            Mesa mesa2 = new Mesa(2, 4, "Raúl");
-            Mesa mesa3 = new Mesa(3, 2, "Raúl");
+            Mesa mesa1 = new Mesa(1, 6, "Raúl", listaPlatos, listaProductosActual);
+            Mesa mesa2 = new Mesa(2, 4, "Raúl", listaPlatos2, listaProductosActual);
+            Mesa mesa3 = new Mesa(3, 2, "Raúl", listaPlatos2, listaProductosActual);
 
             listaMesas.Add(mesa1);
             listaMesas.Add(mesa2);
             listaMesas.Add(mesa3);
 
             // LISTA DE PEDIDOS //
-            // --------------- //
+           // ---------------- //
 
             List<Pedido> listaPedidos = new List<Pedido>();
 
-            Pedido pedido1 = new Pedido(1, "Tomás");
+            Pedido pedido1 = new Pedido(1, "Tomás", listaPlatos);
 
             listaPedidos.Add(pedido1);
 
             // INICIO DE APLICACIÓN //
-            // -------------------- //
+           // -------------------- //
 
             ApplicationConfiguration.Initialize(); 
 

@@ -12,7 +12,7 @@ namespace usuarios
     {
         Stock consultarStockActual();
         Stock consultarStockAnterior();
-        double recaudarIngresoDiario();
+        double recaudarIngresoDiario(List<Mesa> mesa, List<Pedido> pedido);
         double pagarSueldoMensual(Empleado empleado, Arca arca);
         double pagarProveedores(Proveedor proveedor, Arca arca, double monto);
     }

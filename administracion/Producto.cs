@@ -18,5 +18,21 @@ namespace administracion
             this._cantidadEnStock = cantidadEnStock;
             this._precio = precio;
         }
+
+        public object obtenerDatos(string atributo)
+        {
+            switch (atributo)
+            {
+                case "cantidad":
+                    return _cantidadEnStock;
+                case "precio":
+                    return _precio;
+                case "nombre":
+                    return _nombre;
+                default:
+                    throw new ArgumentException("Nombre de atributo inválido");
+            }
+        }
+
     }
 }

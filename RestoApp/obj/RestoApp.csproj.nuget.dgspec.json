@@ -111,6 +111,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MSTest.TestFrameWork": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

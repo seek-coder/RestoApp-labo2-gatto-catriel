@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_encargado));
             splitContainer1 = new SplitContainer();
+            pictureBox8 = new PictureBox();
+            button6 = new Button();
             pictureBox7 = new PictureBox();
             button5 = new Button();
             pictureBox6 = new PictureBox();
@@ -49,10 +51,13 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox5 = new PictureBox();
+            button7 = new Button();
+            pictureBox9 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -60,6 +65,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -71,6 +77,10 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = SystemColors.ControlText;
+            splitContainer1.Panel1.Controls.Add(pictureBox9);
+            splitContainer1.Panel1.Controls.Add(button7);
+            splitContainer1.Panel1.Controls.Add(pictureBox8);
+            splitContainer1.Panel1.Controls.Add(button6);
             splitContainer1.Panel1.Controls.Add(pictureBox7);
             splitContainer1.Panel1.Controls.Add(button5);
             splitContainer1.Panel1.Controls.Add(pictureBox6);
@@ -99,6 +109,32 @@
             splitContainer1.SplitterDistance = 150;
             splitContainer1.SplitterWidth = 1;
             splitContainer1.TabIndex = 0;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.AccessibleName = "pb_exit";
+            pictureBox8.BackColor = SystemColors.ControlLight;
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(12, 503);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(32, 31);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 21;
+            pictureBox8.TabStop = false;
+            // 
+            // button6
+            // 
+            button6.Cursor = Cursors.Hand;
+            button6.Font = new Font("JetBrains Mono", 11.9999981F);
+            button6.ImageAlign = ContentAlignment.MiddleLeft;
+            button6.Location = new Point(3, 496);
+            button6.Name = "button6";
+            button6.Size = new Size(144, 43);
+            button6.TabIndex = 20;
+            button6.Text = "Atrás";
+            button6.TextAlign = ContentAlignment.MiddleRight;
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // pictureBox7
             // 
@@ -323,6 +359,32 @@
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
             // 
+            // button7
+            // 
+            button7.Cursor = Cursors.Hand;
+            button7.Font = new Font("JetBrains Mono", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button7.ImageAlign = ContentAlignment.MiddleLeft;
+            button7.Location = new Point(4, 348);
+            button7.Name = "button7";
+            button7.Size = new Size(144, 43);
+            button7.TabIndex = 22;
+            button7.Text = "Recaudar";
+            button7.TextAlign = ContentAlignment.MiddleRight;
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.AccessibleName = "pb_exit";
+            pictureBox9.BackColor = SystemColors.ControlLight;
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(12, 353);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(32, 31);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 23;
+            pictureBox9.TabStop = false;
+            // 
             // menu_encargado
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -338,6 +400,7 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -345,6 +408,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
         }
 
@@ -370,5 +434,9 @@
         private PictureBox pictureBox6;
         private PictureBox pictureBox7;
         private Button button5;
+        private PictureBox pictureBox8;
+        private Button button6;
+        private Button button7;
+        private PictureBox pictureBox9;
     }
 }

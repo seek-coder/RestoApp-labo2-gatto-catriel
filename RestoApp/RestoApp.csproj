@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MSTest.TestFrameWork" Version="3.4.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\administracion\administracion.csproj" />
     <ProjectReference Include="..\usuarios\usuarios.csproj" />
   </ItemGroup>

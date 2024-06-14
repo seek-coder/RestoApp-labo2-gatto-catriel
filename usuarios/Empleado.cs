@@ -1,5 +1,6 @@
 ﻿using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Security.Cryptography;
+using System.Text;
 using administracion;
 
 namespace usuarios
@@ -59,7 +60,7 @@ namespace usuarios
 
         bool ICocinero.cocinar(Plato plato)
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         Stock IEncargado.consultarStockActual()
@@ -74,22 +75,29 @@ namespace usuarios
 
         Plato ICocinero.crearPlato(Plato plato)
         {
-            throw new NotImplementedException();
+            return plato;
         }
 
         string ICocinero.describrirPlato(Plato plato)
         {
-            throw new NotImplementedException();
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Nombre del plato: {plato.obtenerDatos("nombre").ToString()}\n" +
+                $"Precio en pesos argentinos: {plato.obtenerDatos("precio").ToString()}\n" +
+                $"Ingredientes: {plato.obtenerDatos("ingredientes").ToString()}\n" +
+                $"Tiempo de preparación en minutos: {plato.obtenerDatos("tiempo de preparación").ToString()}");
+            return sb.ToString();
         }
 
-        void ICocinero.eliminarPlato(Plato plato)
+        void ICocinero.eliminarPlato(List<Plato> listaPlatos, Plato plato)
         {
-            throw new NotImplementedException();
+            listaPlatos.Remove(plato);
         }
 
         Plato ICocinero.modificarPlato(Plato plato)
         {
-            throw new NotImplementedException();
+            // falta lógica de modificación de platos
+            return plato;
         }
 
         double IEncargado.pagarProveedores(Proveedor proveedor, Arca arca, double monto)
@@ -110,9 +118,20 @@ namespace usuarios
             throw new NotImplementedException();
         }
 
-        double IEncargado.recaudarIngresoDiario()
+        double IEncargado.recaudarIngresoDiario(List<Mesa> mesaLista, List<Pedido> pedidosLista)
         {
-            throw new NotImplementedException();
+            double recaudacionFinal = 0;
+            foreach (Mesa mesa in mesaLista)
+            {
+                recaudacionFinal += mesa.obtenerPrecioTotalPlatos();
+            }
+
+            foreach (Pedido pedido in pedidosLista)
+            {
+                recaudacionFinal += pedido.obtenerPrecioTotalPedidos();
+            }
+
+            return recaudacionFinal;
         }
 
         void IMesero.tomarMesa()

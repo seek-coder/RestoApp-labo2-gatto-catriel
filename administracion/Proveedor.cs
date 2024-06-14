@@ -8,7 +8,7 @@ namespace administracion
 {
     public class Proveedor
     {
-        private string _tipoProductoQueProvee;
+        private List<Producto> _tipoProductoQueProvee;
         private string _medioDePago; // contado, tarjeta, transferencia
         private string _nombre;
         private string _CUIT;
@@ -16,7 +16,7 @@ namespace administracion
         private string _diaDeEntrega;
         private double _cuentaCorriente;
 
-        public Proveedor(string tipoProductoQueProvee, string medioDePago, string nombre, string cUIT, string direccion, string diaDeEntrega, double cuentaCorriente)
+        public Proveedor(List<Producto> tipoProductoQueProvee, string medioDePago, string nombre, string cUIT, string direccion, string diaDeEntrega, double cuentaCorriente)
         {
             this._tipoProductoQueProvee = tipoProductoQueProvee;
             this._medioDePago = medioDePago;
@@ -27,12 +27,22 @@ namespace administracion
             this._cuentaCorriente = cuentaCorriente;
         }
 
+        private string obtenerTipoDeProductoComoTexto()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (var producto in _tipoProductoQueProvee)
+            {
+                sb.AppendLine(producto.obtenerDatos("nombre").ToString() + "; ");
+            }
+            return sb.ToString();
+        }
+
         public object obtenerDatos(string atributo)
         {
             switch (atributo)
             {
                 case "tipo de producto":
-                    return _tipoProductoQueProvee;
+                    return obtenerTipoDeProductoComoTexto();
                 case "medio de pago":
                     return _medioDePago;
                 case "nombre":

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using usuarios;
 using administracion;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace RestoApp
 {
@@ -27,9 +28,12 @@ namespace RestoApp
         private List<Stock> _listaProductosActual;
         private List<Arca> _listaArcas;
         private List<Proveedor> _listaProveedores;
+        private List<Mesa> _listaMesas;
+        private List<Pedido> _listaPedidos;
 
         public menu_encargado(menu_login login, List<Empleado> listaEmpleados, string currentUserName,
-            List<Stock> listaProductos, List<Arca> listaArcas, List<Proveedor> listaProveedores)
+            List<Stock> listaProductos, List<Arca> listaArcas, List<Proveedor> listaProveedores, List<Mesa> listaMesas,
+            List<Pedido> listaPedidos)
         {
             InitializeComponent();
             this._login = login;
@@ -42,6 +46,8 @@ namespace RestoApp
             this._listaProductosActual = listaProductos;
             this._listaArcas = listaArcas;
             this._listaProveedores = listaProveedores;
+            this._listaMesas = listaMesas;
+            this._listaPedidos = listaPedidos;
 
             // manejo cierre de forms y en su lugar oculto el form
             this._encargadoPagar.FormClosing += new FormClosingEventHandler(Form_Closing);
@@ -128,6 +134,40 @@ namespace RestoApp
         private void button5_Click(object sender, EventArgs e)
         {
             _encargadoProveedor.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _login.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Empleado empleadoN = _listaEmpleados.FirstOrDefault(emp => emp.obtenerDatos("usuario").ToString() == currentUserName);
+
+            // acceso a datos el empleadoN. Evalúo null porque sino me tira error
+            if (empleadoN != null)
+            {
+                string nombreEmpleadoN = empleadoN.obtenerDatos("nombre").ToString();
+
+                string sueldoEmpleadoN = empleadoN.obtenerDatos("sueldo").ToString();
+
+
+                DialogResult result = MessageBox.Show($"¿Desea continuar con la recaudación?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                // filtro el tipo a "IEncargado" y devuelvo el primer tipo que concida con la condición
+                IEncargado encargado = _listaEmpleados.OfType<IEncargado>().FirstOrDefault();
+
+                if (result == DialogResult.Yes)
+                {
+                    // pago el sueldo y lo resto del arca, que en este caso es la única que existe (la primera)
+                    double recaudacionTotalDelDia = encargado.recaudarIngresoDiario(_listaMesas, _listaPedidos);
+                    _listaArcas[0].agregarSaldo(recaudacionTotalDelDia);
+                    MessageBox.Show($"Se ha recaudado un total de ${recaudacionTotalDelDia} y el nuevo valor del arca es de " +
+                        $"${_listaArcas[0].obtenerSaldo()}");
+                }
+            }
         }
     }
 }

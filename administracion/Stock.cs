@@ -17,8 +17,13 @@ namespace administracion
         {
             this._id = id;
             this._nombre = nombre;
-            this._unidadesDisponibles = unidadesDisponibles;
+            this._unidadesDisponibles = unidadesDisponibles; // en gramos
             this._precioPorUnidad = precioPorUnidad;
+        }
+
+        public void descontarGramos(int gramos)
+        {
+            _unidadesDisponibles -= gramos;
         }
 
         public object obtenerDatos(string atributo)

@@ -96,13 +96,13 @@ namespace RestoApp
                 if (rol == "encargado")
                 {
                     menu_encargado encargadoForm = new menu_encargado(login, _listaEmpleados, usernameActual,
-                        _listaProductosActual, _listaArcas, _listaProveedores);
+                        _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
                     encargadoForm.Show();
                 }
 
                 else if (rol == "mesero")
                 {
-                    menu_mesero meseroForm = new menu_mesero(login, _listaEmpleados, usernameActual, _listaMesas);
+                    menu_mesero meseroForm = new menu_mesero(login, _listaEmpleados, usernameActual, _listaMesas, _listaArcas[0], _listaPlatos);
                     meseroForm.Show();
                 }
 
@@ -122,6 +122,7 @@ namespace RestoApp
                 {
                     throw new ArgumentException("Rol inválido.");
                 }
+
             }
 
         }
