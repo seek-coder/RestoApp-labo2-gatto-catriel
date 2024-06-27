@@ -24,8 +24,20 @@ namespace RestoApp
         private List<Pedido> _listaPedidos;
         private List<Mesa> _listaMesas;
 
+        private menu_encargado encargadoForm;
+        private menu_mesero meseroForm;
+        private menu_cocinero cocineroForm;
+        private menu_delivery deliveryForm;
+        private menu_bienvenida main;
+
+        // public menu_encargado encargadoForm = new menu_encargado(login, _listaEmpleados, usernameActual, _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
+        // menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas, _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
+
+
         public string usernameActual = "¿Nombre?";
         string rol;
+
+        public bool primerLoginEncargado = false;
 
         public menu_login(List<Empleado> listaEmpleados, List<Stock> listaProductos, List<Arca> listaArcas,
             List<Proveedor> listaProveedores, List<Plato> listaPlatos, List<Mesa> listaMesas, List<Pedido> listaPedidos)
@@ -38,6 +50,13 @@ namespace RestoApp
             this._listaPlatos = listaPlatos;
             this._listaMesas = listaMesas;
             this._listaPedidos = listaPedidos;
+
+            this.encargadoForm = new menu_encargado(this, _listaEmpleados, usernameActual,
+                _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
+            this.meseroForm = new menu_mesero(this, _listaEmpleados, usernameActual, _listaMesas, _listaArcas[0], _listaPlatos);
+            this.cocineroForm = new menu_cocinero(this, _listaEmpleados, usernameActual, _listaPlatos);
+            this.deliveryForm = new menu_delivery(this, _listaEmpleados, usernameActual, _listaPedidos);
+
         }
 
         private void menu_login_Load(object sender, EventArgs e)
@@ -53,8 +72,8 @@ namespace RestoApp
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            menu_bienvenida main = new menu_bienvenida(_listaEmpleados, _listaProductosActual, _listaArcas,
-                _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
+            this.main = new menu_bienvenida(_listaEmpleados, _listaProductosActual, _listaArcas,
+            _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
             main.Show();
         }
 
@@ -88,33 +107,29 @@ namespace RestoApp
             else
             {
                 this.Hide();
-                menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas,
-                    _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
+                // this.login = new menu_login(_listaEmpleados, _listaProductosActual,
+                //    _listaArcas, _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
 
                 // acá creo los forms directamente con acciones del usuario y NO en los constructores porque me parece más rápido en este caso,
                 // donde no tengo que preocuparme por tanto manejo de datos (tengo en cuenta sólo los roles).
                 if (rol == "encargado")
                 {
-                    menu_encargado encargadoForm = new menu_encargado(login, _listaEmpleados, usernameActual,
-                        _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
                     encargadoForm.Show();
                 }
 
                 else if (rol == "mesero")
                 {
-                    menu_mesero meseroForm = new menu_mesero(login, _listaEmpleados, usernameActual, _listaMesas, _listaArcas[0], _listaPlatos);
+                    
                     meseroForm.Show();
                 }
 
                 else if (rol == "cocinero")
                 {
-                    menu_cocinero cocineroForm = new menu_cocinero(login, _listaEmpleados, usernameActual, _listaPlatos);
                     cocineroForm.Show();
                 }
 
                 else if (rol == "delivery")
                 {
-                    menu_delivery deliveryForm = new menu_delivery(login, _listaEmpleados, usernameActual, _listaPedidos);
                     deliveryForm.Show();
                 }
 

@@ -41,7 +41,7 @@ namespace RestoApp
 
         private void DataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex == 5 && e.RowIndex >= 0) 
+            if (e.ColumnIndex == 5 && e.RowIndex >= 0)
             {
                 DataGridViewCheckBoxCell chkCell = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex] as DataGridViewCheckBoxCell;
                 if ((bool)chkCell.Value)
@@ -54,6 +54,11 @@ namespace RestoApp
                     MessageBox.Show($"Nuevo saldo en arca: {_arca.obtenerSaldo().ToString()}");
                 }
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

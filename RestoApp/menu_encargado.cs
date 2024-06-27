@@ -31,6 +31,8 @@ namespace RestoApp
         private List<Mesa> _listaMesas;
         private List<Pedido> _listaPedidos;
 
+        public int count = 0; // conteo para corroborar recaudación
+
         public menu_encargado(menu_login login, List<Empleado> listaEmpleados, string currentUserName,
             List<Stock> listaProductos, List<Arca> listaArcas, List<Proveedor> listaProveedores, List<Mesa> listaMesas,
             List<Pedido> listaPedidos)
@@ -159,13 +161,17 @@ namespace RestoApp
                 // filtro el tipo a "IEncargado" y devuelvo el primer tipo que concida con la condición
                 IEncargado encargado = _listaEmpleados.OfType<IEncargado>().FirstOrDefault();
 
-                if (result == DialogResult.Yes)
+                if (result == DialogResult.Yes && count == 0)
                 {
                     // pago el sueldo y lo resto del arca, que en este caso es la única que existe (la primera)
                     double recaudacionTotalDelDia = encargado.recaudarIngresoDiario(_listaMesas, _listaPedidos);
                     _listaArcas[0].agregarSaldo(recaudacionTotalDelDia);
                     MessageBox.Show($"Se ha recaudado un total de ${recaudacionTotalDelDia} y el nuevo valor del arca es de " +
                         $"${_listaArcas[0].obtenerSaldo()}");
+                    count = count + 1;
+                } else
+                {
+                    MessageBox.Show("Ya se ha hecho la recaudación");
                 }
             }
         }

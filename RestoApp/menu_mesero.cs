@@ -55,12 +55,19 @@ namespace RestoApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Close();
             Application.Exit();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             _meseroMesas.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _login.Show();
         }
     }
 }
