@@ -37,6 +37,9 @@ namespace administracion
                     return _id;
                 case "conductor":
                     return _conductorAsignado;
+                case "platos":
+                    string platosText = string.Join(", ", _listaPlatos.Select(plato => plato.obtenerDatos("nombre")));
+                    return platosText;
                 default:
                     throw new ArgumentException("Nombre de atributo inválido");
             }

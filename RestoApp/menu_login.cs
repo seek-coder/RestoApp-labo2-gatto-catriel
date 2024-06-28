@@ -13,7 +13,7 @@ using administracion;
 
 namespace RestoApp
 {
-    
+
     public partial class menu_login : Form
     {
         private List<Empleado> _listaEmpleados;
@@ -23,6 +23,7 @@ namespace RestoApp
         private List<Plato> _listaPlatos;
         private List<Pedido> _listaPedidos;
         private List<Mesa> _listaMesas;
+        private List<Producto> _listaProductos;
 
         private menu_encargado encargadoForm;
         private menu_mesero meseroForm;
@@ -34,13 +35,12 @@ namespace RestoApp
         // menu_login login = new menu_login(_listaEmpleados, _listaProductosActual, _listaArcas, _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
 
 
-        public string usernameActual = "¿Nombre?";
+        private string usernameActual = "¿Nombre?";
         string rol;
 
-        public bool primerLoginEncargado = false;
-
         public menu_login(List<Empleado> listaEmpleados, List<Stock> listaProductos, List<Arca> listaArcas,
-            List<Proveedor> listaProveedores, List<Plato> listaPlatos, List<Mesa> listaMesas, List<Pedido> listaPedidos)
+            List<Proveedor> listaProveedores, List<Plato> listaPlatos, List<Mesa> listaMesas,
+            List<Pedido> listaPedidos)
         {
             InitializeComponent();
             this._listaEmpleados = listaEmpleados;
@@ -51,11 +51,11 @@ namespace RestoApp
             this._listaMesas = listaMesas;
             this._listaPedidos = listaPedidos;
 
-            this.encargadoForm = new menu_encargado(this, _listaEmpleados, usernameActual,
-                _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
-            this.meseroForm = new menu_mesero(this, _listaEmpleados, usernameActual, _listaMesas, _listaArcas[0], _listaPlatos);
-            this.cocineroForm = new menu_cocinero(this, _listaEmpleados, usernameActual, _listaPlatos);
-            this.deliveryForm = new menu_delivery(this, _listaEmpleados, usernameActual, _listaPedidos);
+            //this.encargadoForm = new menu_encargado(this, _listaEmpleados, usernameActual,
+              //  _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
+            
+            //this.cocineroForm = new menu_cocinero(this, _listaEmpleados, usernameActual, _listaPlatos);
+            //this.deliveryForm = new menu_delivery(this, _listaEmpleados, usernameActual, _listaPedidos);
 
         }
 
@@ -103,33 +103,46 @@ namespace RestoApp
                 MessageBox.Show("Usuario o contraseña incorrectos.");
                 this.username.Text = "";
                 this.password.Text = "";
-            } 
+            }
             else
             {
                 this.Hide();
-                // this.login = new menu_login(_listaEmpleados, _listaProductosActual,
-                //    _listaArcas, _listaProveedores, _listaPlatos, _listaMesas, _listaPedidos);
 
-                // acá creo los forms directamente con acciones del usuario y NO en los constructores porque me parece más rápido en este caso,
-                // donde no tengo que preocuparme por tanto manejo de datos (tengo en cuenta sólo los roles).
                 if (rol == "encargado")
                 {
+                    if (encargadoForm == null)
+                    {
+                        encargadoForm = new menu_encargado(this, _listaEmpleados, usernameActual,
+                            _listaProductosActual, _listaArcas, _listaProveedores, _listaMesas, _listaPedidos);
+                    }
                     encargadoForm.Show();
+
                 }
 
                 else if (rol == "mesero")
                 {
-                    
+                    if (meseroForm == null)
+                    {
+                        this.meseroForm = new menu_mesero(this, _listaEmpleados, usernameActual, _listaMesas, _listaArcas[0], _listaPlatos, _listaProductosActual);
+                    }
                     meseroForm.Show();
                 }
 
                 else if (rol == "cocinero")
                 {
+                    if (cocineroForm == null)
+                    {
+                        cocineroForm = new menu_cocinero(this, _listaEmpleados, usernameActual, _listaPlatos);
+                    }
                     cocineroForm.Show();
                 }
 
                 else if (rol == "delivery")
                 {
+                    if (deliveryForm == null)
+                    {
+                        deliveryForm = new menu_delivery(this, _listaEmpleados, usernameActual, _listaPedidos, _listaArcas[0]);
+                    }
                     deliveryForm.Show();
                 }
 
@@ -160,6 +173,11 @@ namespace RestoApp
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
 
         /*

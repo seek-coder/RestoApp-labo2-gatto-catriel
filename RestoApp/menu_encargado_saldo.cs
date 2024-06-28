@@ -23,8 +23,8 @@ namespace RestoApp
 
         private void button4_Click(object sender, EventArgs e)
         {
-            // encuentro primera arca cuyo saldo sea mayor a 0
-            Arca arcaN = _listaArcas.FirstOrDefault(arca => arca.obtenerSaldo() > 0);
+            // encuentro primera arca disponible
+            Arca arcaN = _listaArcas.FirstOrDefault(arca => arca.obtenerSaldo() <= 0 || arca.obtenerSaldo() > 0);
             string arcaNSaldo = arcaN.obtenerSaldo().ToString();
 
             // manejo una sola arca porque es lo común en ámbitos gastronómicos, pero dejo abierto a mejoras para agregar más
@@ -32,6 +32,7 @@ namespace RestoApp
             {
                 MessageBox.Show($"El arca cuenta con un saldo de ${arcaNSaldo}");
             }
+
         }
     }
 }

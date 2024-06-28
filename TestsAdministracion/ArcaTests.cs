@@ -7,66 +7,53 @@ namespace AdministracionTests
     public class ArcaTests
     {
         [TestMethod]
-        public void obtenerSaldo_DeberiaRetornarSaldoInicial()
+        public void TestObtenerSaldo()
         {
-            // arrange
             double saldoInicial = 100.0;
             Arca arca = new Arca(saldoInicial);
 
-            // act
             double saldoObtenido = arca.obtenerSaldo();
 
-            // assert
-            Assert.AreEqual(saldoInicial, saldoObtenido, "El saldo obtenido no es el saldo inicial esperado.");
+            Assert.AreEqual(saldoInicial, saldoObtenido, "El saldo inicial no es el esperado.");
         }
 
         [TestMethod]
-        public void establecerSaldo_DeberiaEstablecerNuevoSaldo()
+        public void TestEstablecerSaldo()
         {
-            // arrange
-            double nuevoSaldo = 150.0;
-            Arca arca = new Arca(100.0);
+            double saldoInicial = 100.0;
+            double nuevoSaldo = 200.0;
+            Arca arca = new Arca(saldoInicial);
 
-            // act
             arca.establecerSaldo(nuevoSaldo);
             double saldoObtenido = arca.obtenerSaldo();
 
-            // assert
-            Assert.AreEqual(nuevoSaldo, saldoObtenido, "El saldo obtenido no coincide con el nuevo saldo establecido.");
+            Assert.AreEqual(nuevoSaldo, saldoObtenido, "El saldo establecido no es el esperado.");
         }
 
         [TestMethod]
-        public void agregarSaldo_DeberiaSumarMontoAlSaldoActual()
+        public void TestAgregarSaldo()
         {
-            // arrange
             double saldoInicial = 100.0;
             double montoAgregar = 50.0;
             Arca arca = new Arca(saldoInicial);
 
-            // act
             arca.agregarSaldo(montoAgregar);
-            double saldoEsperado = saldoInicial + montoAgregar;
             double saldoObtenido = arca.obtenerSaldo();
 
-            // assert
-            Assert.AreEqual(saldoEsperado, saldoObtenido, "El saldo obtenido no es el saldo esperado después de agregar saldo.");
+            Assert.AreEqual(saldoInicial + montoAgregar, saldoObtenido, "El saldo después de agregar no es el esperado.");
         }
 
         [TestMethod]
-        public void restarSaldo_DeberiaRestarMontoAlSaldoActual()
+        public void TestRestarSaldo()
         {
-            // arrange
             double saldoInicial = 100.0;
-            double montoRestar = 30.0;
+            double montoRestar = 50.0;
             Arca arca = new Arca(saldoInicial);
 
-            // act
             arca.restarSaldo(montoRestar);
-            double saldoEsperado = saldoInicial - montoRestar;
             double saldoObtenido = arca.obtenerSaldo();
 
-            // assert
-            Assert.AreEqual(saldoEsperado, saldoObtenido, "El saldo obtenido no es el saldo esperado después de restar saldo.");
+            Assert.AreEqual(saldoInicial - montoRestar, saldoObtenido, "El saldo después de restar no es el esperado.");
         }
     }
 }

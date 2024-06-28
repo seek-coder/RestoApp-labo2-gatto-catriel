@@ -8,6 +8,6 @@ namespace usuarios
 {
     public interface IMesero
     {
-        void tomarMesa();
+        bool tomarMesa();
     }
 }

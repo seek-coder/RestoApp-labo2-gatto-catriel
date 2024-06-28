@@ -14,5 +14,10 @@ namespace administracion
         {
             this._tieneAlcohol = tieneAlcohol;
         }
+
+        public bool TieneAlcohol()
+        {
+            return _tieneAlcohol;
+        }
     }
 }

@@ -30,7 +30,7 @@ namespace RestoApp
 
         private void button4_Click_1(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedItem != null && comboBox1.SelectedItem != "")
+            if (comboBox1.SelectedItem != null && comboBox1.SelectedItem != "" && _listaArcas[0].obtenerSaldo() > 0)
             {
                 string nombreEmpleadoN = comboBox1.SelectedItem.ToString();
 
@@ -61,7 +61,7 @@ namespace RestoApp
 
             else
             {
-                MessageBox.Show($"Ningún empleado ha sido seleccionado.");
+                MessageBox.Show($"Ningún empleado ha sido seleccionado o no hay monto disponible para utilizar.");
             }
         }
 

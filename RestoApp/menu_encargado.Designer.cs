@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_encargado));
             splitContainer1 = new SplitContainer();
+            pictureBox9 = new PictureBox();
+            button7 = new Button();
             pictureBox8 = new PictureBox();
             button6 = new Button();
             pictureBox7 = new PictureBox();
@@ -51,12 +53,11 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox5 = new PictureBox();
-            button7 = new Button();
-            pictureBox9 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -65,7 +66,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -109,6 +109,32 @@
             splitContainer1.SplitterDistance = 150;
             splitContainer1.SplitterWidth = 1;
             splitContainer1.TabIndex = 0;
+            // 
+            // pictureBox9
+            // 
+            pictureBox9.AccessibleName = "pb_exit";
+            pictureBox9.BackColor = SystemColors.ControlLight;
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(12, 353);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(32, 31);
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox9.TabIndex = 23;
+            pictureBox9.TabStop = false;
+            // 
+            // button7
+            // 
+            button7.Cursor = Cursors.Hand;
+            button7.Font = new Font("JetBrains Mono", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button7.ImageAlign = ContentAlignment.MiddleLeft;
+            button7.Location = new Point(4, 348);
+            button7.Name = "button7";
+            button7.Size = new Size(144, 43);
+            button7.TabIndex = 22;
+            button7.Text = "Recaudar";
+            button7.TextAlign = ContentAlignment.MiddleRight;
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // pictureBox8
             // 
@@ -359,32 +385,6 @@
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
             // 
-            // button7
-            // 
-            button7.Cursor = Cursors.Hand;
-            button7.Font = new Font("JetBrains Mono", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.ImageAlign = ContentAlignment.MiddleLeft;
-            button7.Location = new Point(4, 348);
-            button7.Name = "button7";
-            button7.Size = new Size(144, 43);
-            button7.TabIndex = 22;
-            button7.Text = "Recaudar";
-            button7.TextAlign = ContentAlignment.MiddleRight;
-            button7.UseVisualStyleBackColor = true;
-            button7.Click += button7_Click;
-            // 
-            // pictureBox9
-            // 
-            pictureBox9.AccessibleName = "pb_exit";
-            pictureBox9.BackColor = SystemColors.ControlLight;
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(12, 353);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(32, 31);
-            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox9.TabIndex = 23;
-            pictureBox9.TabStop = false;
-            // 
             // menu_encargado
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -394,12 +394,14 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "menu_encargado";
             StartPosition = FormStartPosition.CenterScreen;
+            Load += menu_encargado_Load;
             Shown += menu_encargado_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel2.ResumeLayout(false);
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
@@ -408,7 +410,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
         }
 

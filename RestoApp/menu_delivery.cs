@@ -20,14 +20,27 @@ namespace RestoApp
 
         private menu_delivery_pedidos _deliveryPedidos;
         private menu_login _login;
-        public menu_delivery(menu_login login, List<Empleado> listaEmpleados, string currentUserName, List<Pedido> listaPedidos)
+
+        private Arca _arca;
+        public menu_delivery(menu_login login, List<Empleado> listaEmpleados, string currentUserName, List<Pedido> listaPedidos, Arca arca)
         {
             InitializeComponent();
             this.currentUserName = currentUserName;
             this._login = login;
+            this._arca = arca;
             this._listaEmpleados = listaEmpleados;
-            this._deliveryPedidos = new menu_delivery_pedidos(listaPedidos);
+            this._deliveryPedidos = new menu_delivery_pedidos(listaPedidos, arca, ["Tomás"]);
+
+            this._deliveryPedidos.FormClosing += new FormClosingEventHandler(Form_Closing);
         }
+
+        // creo método para manejar cierre de forms
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;  // cancelo el cierre
+            ((Form)sender).Hide();  // oculto el form
+        }
+
         private void menu_delivery_Load(object sender, EventArgs e)
         {
             Empleado empleadoN = _listaEmpleados.FirstOrDefault(emp => emp.obtenerDatos("usuario").ToString() == currentUserName);
@@ -49,6 +62,8 @@ namespace RestoApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this._deliveryPedidos.FormClosing -= new FormClosingEventHandler(Form_Closing);
+
             Application.Exit();
 
         }
@@ -56,6 +71,12 @@ namespace RestoApp
         private void button2_Click(object sender, EventArgs e)
         {
             _deliveryPedidos.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            _login.Show();
         }
     }
 }

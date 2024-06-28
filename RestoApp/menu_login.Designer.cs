@@ -36,17 +36,17 @@
             password = new TextBox();
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            button2 = new Button();
-            pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox6 = new PictureBox();
+            pictureBox3 = new PictureBox();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -137,30 +137,6 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // button2
-            // 
-            button2.Font = new Font("JetBrains Mono", 9.75F);
-            button2.Location = new Point(114, 493);
-            button2.Name = "button2";
-            button2.Size = new Size(167, 44);
-            button2.TabIndex = 9;
-            button2.Text = "Atrás     ";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.AccessibleName = "pb_exit";
-            pictureBox3.BackColor = SystemColors.ControlLight;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(125, 499);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(32, 31);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 10;
-            pictureBox3.TabStop = false;
-            // 
             // pictureBox4
             // 
             pictureBox4.AccessibleName = "pb_exit";
@@ -192,6 +168,30 @@
             pictureBox6.TabIndex = 13;
             pictureBox6.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.AccessibleName = "pb_exit";
+            pictureBox3.BackColor = SystemColors.ControlLight;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new Point(125, 499);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(32, 31);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 15;
+            pictureBox3.TabStop = false;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("JetBrains Mono", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Location = new Point(114, 493);
+            button2.Name = "button2";
+            button2.Size = new Size(167, 43);
+            button2.TabIndex = 8;
+            button2.Text = "Salir     ";
+            button2.TextAlign = ContentAlignment.MiddleRight;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
             // menu_login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -199,10 +199,10 @@
             BackColor = Color.White;
             ClientSize = new Size(400, 600);
             ControlBox = false;
-            Controls.Add(pictureBox5);
-            Controls.Add(pictureBox4);
             Controls.Add(pictureBox3);
             Controls.Add(button2);
+            Controls.Add(pictureBox5);
+            Controls.Add(pictureBox4);
             Controls.Add(button1);
             Controls.Add(password);
             Controls.Add(pictureBox1);
@@ -220,10 +220,10 @@
             Load += menu_login_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -237,10 +237,10 @@
         private TextBox password;
         private PictureBox pictureBox1;
         private Button button1;
-        private Button button2;
-        private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
+        private PictureBox pictureBox3;
+        private Button button2;
     }
 }

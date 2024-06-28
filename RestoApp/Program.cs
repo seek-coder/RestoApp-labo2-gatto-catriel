@@ -88,6 +88,7 @@ namespace RestoApp
             Stock producto5 = new Stock(5, "Harina de maíz", 3000, 190);
             Stock producto6 = new Stock(6, "Salsa de tomate", 300, 100);
             Stock producto7 = new Stock(7, "Bola de lomo", 2000, 350);
+            Stock producto8 = new Stock(8, "Ñoquis", 2000, 350);
 
             listaProductosActual.Add(producto1);
             listaProductosActual.Add(producto2);
@@ -96,9 +97,10 @@ namespace RestoApp
             listaProductosActual.Add(producto5);
             listaProductosActual.Add(producto6);
             listaProductosActual.Add(producto7);
+            listaProductosActual.Add(producto8);
 
             // LISTA DE PLATOS //
-           // --------------- //
+            // --------------- //
 
             List<Plato> listaPlatos = new List<Plato>();
             List<Plato> listaPlatos2 = new List<Plato>();
@@ -133,11 +135,15 @@ namespace RestoApp
             List<Pedido> listaPedidos = new List<Pedido>();
 
             Pedido pedido1 = new Pedido(1, "Tomás", listaPlatos);
+            Pedido pedido2 = new Pedido(2, "Tomás", listaPlatos2);
+            Pedido pedido3 = new Pedido(3, "Tomás", listaPlatos);
 
             listaPedidos.Add(pedido1);
+            listaPedidos.Add(pedido2);
+            listaPedidos.Add(pedido3);
 
             // INICIO DE APLICACIÓN //
-           // -------------------- //
+            // -------------------- //
 
             ApplicationConfiguration.Initialize(); 
 

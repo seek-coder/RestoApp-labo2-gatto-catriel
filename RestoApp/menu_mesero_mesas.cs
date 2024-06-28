@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using usuarios;
 
 namespace RestoApp
 {
@@ -15,9 +16,11 @@ namespace RestoApp
     {
         private List<Mesa> _listaMesas;
         private List<Plato> _listaPlatos;
+        private List<Stock> _listaProductos;
+
         private double _recaudacionMesa;
         private Arca _arca;
-        public menu_mesero_mesas(List<Mesa> listaMesas, Arca arca, List<Plato> listaPlatos)
+        public menu_mesero_mesas(List<Mesa> listaMesas, Arca arca, List<Plato> listaPlatos, List<Stock> listaProductos)
 
         {
             InitializeComponent();
@@ -25,38 +28,50 @@ namespace RestoApp
             this._listaMesas = listaMesas;
             this._arca = arca;
             this._listaPlatos = listaPlatos;
+            this._listaProductos = listaProductos;
 
             foreach (Mesa mesa in _listaMesas)
             {
-                string[] fila = new string[] { mesa.obtenerDatos("id").ToString(),
-                    mesa.obtenerDatos("capacidad").ToString(),
-                    mesa.obtenerDatos("mesero").ToString(),
-                    mesa.obtenerDatos("platos").ToString() };
+                DataGridViewRow fila = new DataGridViewRow();
+                fila.CreateCells(dataGridView1);
+
+                fila.Cells[0].Value = mesa.obtenerDatos("id").ToString();
+                fila.Cells[1].Value = mesa.obtenerDatos("capacidad").ToString();
+                fila.Cells[2].Value = mesa.obtenerDatos("mesero").ToString();
+                fila.Cells[3].Value = mesa.obtenerDatos("platos");
+
                 dataGridView1.Rows.Add(fila);
 
             }
-            dataGridView1.CellValueChanged += DataGridView1_CellValueChanged;
 
         }
 
         private void DataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
+
             if (e.ColumnIndex == 5 && e.RowIndex >= 0)
             {
                 DataGridViewCheckBoxCell chkCell = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex] as DataGridViewCheckBoxCell;
-                if ((bool)chkCell.Value)
+                bool boolValue = (bool)chkCell.Value;
+                if (boolValue)
                 {
                     Plato plato = _listaPlatos[e.RowIndex];
                     double precioPlato = Convert.ToDouble(plato.obtenerDatos("precio"));
 
                     _arca.agregarSaldo(precioPlato);
-                    MessageBox.Show($"Saldo agregado: {precioPlato}");
-                    MessageBox.Show($"Nuevo saldo en arca: {_arca.obtenerSaldo().ToString()}");
+                    MessageBox.Show($"Consumo agregado de la mesa: ${precioPlato}");
+                    MessageBox.Show($"Nuevo saldo en arca: ${_arca.obtenerSaldo().ToString()}");
+
                 }
             }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
 
         }

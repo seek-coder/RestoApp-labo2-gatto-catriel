@@ -48,6 +48,8 @@
             dataGridView1.Size = new Size(644, 251);
             dataGridView1.TabIndex = 2;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.CellEndEdit += dataGridView1_CellEndEdit;
+            dataGridView1.CellValueChanged += DataGridView1_CellValueChanged;
             // 
             // ID
             // 

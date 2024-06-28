@@ -17,7 +17,8 @@ namespace usuarios
         private string _contraseña;
         private bool _cobroSueldo;
 
-        public Empleado(string nombre, string apellido, string direccion, int contacto, double sueldo, string rol, string usuario, string contraseña, bool cobroSueldo)
+        public Empleado(string nombre, string apellido, string direccion,
+            int contacto, double sueldo, string rol, string usuario, string contraseña, bool cobroSueldo)
         {
             this._nombre = nombre;
             this._apellido = apellido;
@@ -63,14 +64,9 @@ namespace usuarios
             return true;
         }
 
-        Stock IEncargado.consultarStockActual()
+        Stock IEncargado.consultarStockActual(Stock stock)
         {
-            throw new NotImplementedException();
-        }
-
-        Stock IEncargado.consultarStockAnterior()
-        {
-            throw new NotImplementedException();
+            return stock;
         }
 
         Plato ICocinero.crearPlato(Plato plato)
@@ -96,8 +92,7 @@ namespace usuarios
 
         Plato ICocinero.modificarPlato(Plato plato)
         {
-            // falta lógica de modificación de platos
-            return plato;
+            throw new NotImplementedException();
         }
 
         double IEncargado.pagarProveedores(Proveedor proveedor, Arca arca, double monto)
@@ -115,7 +110,7 @@ namespace usuarios
 
         bool IDelivery.realizarEntrega()
         {
-            throw new NotImplementedException();
+            return true;
         }
 
         double IEncargado.recaudarIngresoDiario(List<Mesa> mesaLista, List<Pedido> pedidosLista)
@@ -134,9 +129,9 @@ namespace usuarios
             return recaudacionFinal;
         }
 
-        void IMesero.tomarMesa()
+        bool IMesero.tomarMesa()
         {
-            throw new NotImplementedException();
+            return true;
         }
     }
 }

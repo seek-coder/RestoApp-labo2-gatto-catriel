@@ -30,6 +30,7 @@
         {
             dataGridView1 = new DataGridView();
             ID = new DataGridViewTextBoxColumn();
+            plato = new DataGridViewTextBoxColumn();
             nombre = new DataGridViewTextBoxColumn();
             tomado = new DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -39,16 +40,23 @@
             // 
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, nombre, tomado });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, plato, nombre, tomado });
             dataGridView1.Location = new Point(12, 12);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(346, 251);
+            dataGridView1.Size = new Size(446, 251);
             dataGridView1.TabIndex = 3;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
+            dataGridView1.CellValueChanged += dataGridView1_CellValueChanged;
             // 
             // ID
             // 
             ID.HeaderText = "ID";
             ID.Name = "ID";
+            // 
+            // plato
+            // 
+            plato.HeaderText = "PLATOS";
+            plato.Name = "plato";
             // 
             // nombre
             // 
@@ -57,14 +65,14 @@
             // 
             // tomado
             // 
-            tomado.HeaderText = "TOMADO";
+            tomado.HeaderText = "ENTREGADO";
             tomado.Name = "tomado";
             // 
             // menu_delivery_pedidos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(370, 277);
+            ClientSize = new Size(470, 277);
             Controls.Add(dataGridView1);
             MaximizeBox = false;
             MinimizeBox = false;
@@ -78,6 +86,7 @@
 
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn ID;
+        private DataGridViewTextBoxColumn plato;
         private DataGridViewTextBoxColumn nombre;
         private DataGridViewCheckBoxColumn tomado;
     }

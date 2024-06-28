@@ -29,7 +29,10 @@ namespace RestoApp
 
             foreach (Stock producto in _listaProductosActual)
             {
-                string[] fila = new string[] { producto.obtenerDatos("id").ToString(), producto.obtenerDatos("nombre").ToString(), producto.obtenerDatos("unidades disponibles").ToString(), producto.obtenerDatos("precio por unidad").ToString() };
+                string[] fila = new string[] { producto.obtenerDatos("id").ToString(),
+                    producto.obtenerDatos("nombre").ToString(),
+                    producto.obtenerDatos("unidades disponibles").ToString(),
+                    producto.obtenerDatos("precio por unidad").ToString() };
                 dataGridView1.Rows.Add(fila);
             }
             
@@ -41,6 +44,7 @@ namespace RestoApp
 
             int fila = e.RowIndex;
             int columna = e.ColumnIndex;
+            float resultado = 0;
 
             // evalúo si estoy en alguna de las dos columnas, precio x unidad o cantidad
             if (dataGridView1.Columns[columna].Name == "precioUnitario" 
@@ -60,8 +64,8 @@ namespace RestoApp
                     float.TryParse(celdaCantidad.Value.ToString(), out float cantidad) &&
                     float.TryParse(celdaPrecioUnitario.Value.ToString(), out float precio))
                 {
-                    float resultado = cantidad * precio;
-                    MessageBox.Show($"Resultado de la multiplicación entre cantidad y precio unitario ${resultado} (se descontará" +
+                    resultado = cantidad * precio;
+                    MessageBox.Show($"Resultado de la multiplicación entre cantidad y precio unitario: ${resultado} (se descontará" +
                         $" del arca principal)");
 
                     Arca arcaN = _listaArcas.FirstOrDefault(arca => arca.obtenerSaldo() > 0);
@@ -72,7 +76,7 @@ namespace RestoApp
 
                 }
 
-                MessageBox.Show("Se editó la celda de precio mi rey.");
+                MessageBox.Show("Se editó la celda de precio.");
             }
         }
 

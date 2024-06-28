@@ -29,6 +29,17 @@ namespace RestoApp
             this._listaPlatos = listaPlatos;
 
             this._cocineroPlatos = new menu_cocinero_platos(listaPlatos);
+
+            this._cocineroPlatos.FormClosing += new FormClosingEventHandler(Form_Closing);
+        }
+
+
+
+        // creo método para manejar cierre de forms
+        private void Form_Closing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;  // cancelo el cierre
+            ((Form)sender).Hide();  // oculto el form
         }
 
         private void menu_cocinero_Load(object sender, EventArgs e)
@@ -52,12 +63,25 @@ namespace RestoApp
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this._cocineroPlatos.FormClosing -= new FormClosingEventHandler(Form_Closing);
+
             Application.Exit();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             _cocineroPlatos.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            _login.Show();
         }
     }
 }

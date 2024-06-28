@@ -43,6 +43,8 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox5 = new PictureBox();
+            pictureBox8 = new PictureBox();
+            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -51,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -62,6 +65,8 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = SystemColors.ControlText;
+            splitContainer1.Panel1.Controls.Add(pictureBox8);
+            splitContainer1.Panel1.Controls.Add(button6);
             splitContainer1.Panel1.Controls.Add(pictureBox1);
             splitContainer1.Panel1.Controls.Add(button2);
             splitContainer1.Panel1.Controls.Add(pictureBox3);
@@ -227,6 +232,32 @@
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
             // 
+            // pictureBox8
+            // 
+            pictureBox8.AccessibleName = "pb_exit";
+            pictureBox8.BackColor = SystemColors.ControlLight;
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(12, 503);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(32, 31);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 23;
+            pictureBox8.TabStop = false;
+            // 
+            // button6
+            // 
+            button6.Cursor = Cursors.Hand;
+            button6.Font = new Font("JetBrains Mono", 11.9999981F);
+            button6.ImageAlign = ContentAlignment.MiddleLeft;
+            button6.Location = new Point(3, 496);
+            button6.Name = "button6";
+            button6.Size = new Size(144, 43);
+            button6.TabIndex = 22;
+            button6.Text = "Atrás";
+            button6.TextAlign = ContentAlignment.MiddleRight;
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click_1;
+            // 
             // menu_cocinero
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -248,6 +279,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
         }
 
@@ -267,5 +299,7 @@
         private Label label1;
         protected Label label2;
         private PictureBox pictureBox5;
+        private PictureBox pictureBox8;
+        private Button button6;
     }
 }

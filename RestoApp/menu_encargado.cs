@@ -22,7 +22,7 @@ namespace RestoApp
         private menu_encargado_saldo _encargadoSaldo;
         private menu_encargado_proveedores _encargadoProveedor;
 
-        private string currentUserName;
+        public string currentUserName;
         private List<Empleado> _listaEmpleados;
         private menu_login _login;
         private List<Stock> _listaProductosActual;
@@ -83,6 +83,7 @@ namespace RestoApp
                 label5.Text = $"Apellido: {apellidoEmpleadoN}";
                 label6.Text = $"Dirección: {direccionEmpleadoN}";
                 label7.Text = $"Contacto: {contactoEmpleadoN}";
+
             }
         }
 

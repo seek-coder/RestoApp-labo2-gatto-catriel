@@ -10,8 +10,7 @@ namespace usuarios
 {
     public interface IEncargado
     {
-        Stock consultarStockActual();
-        Stock consultarStockAnterior();
+        Stock consultarStockActual(Stock stock);
         double recaudarIngresoDiario(List<Mesa> mesa, List<Pedido> pedido);
         double pagarSueldoMensual(Empleado empleado, Arca arca);
         double pagarProveedores(Proveedor proveedor, Arca arca, double monto);
