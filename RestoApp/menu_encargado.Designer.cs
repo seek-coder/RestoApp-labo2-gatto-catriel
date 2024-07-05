@@ -53,6 +53,8 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox5 = new PictureBox();
+            button8 = new Button();
+            pictureBox10 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -66,6 +68,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -77,6 +80,8 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = SystemColors.ControlText;
+            splitContainer1.Panel1.Controls.Add(pictureBox10);
+            splitContainer1.Panel1.Controls.Add(button8);
             splitContainer1.Panel1.Controls.Add(pictureBox9);
             splitContainer1.Panel1.Controls.Add(button7);
             splitContainer1.Panel1.Controls.Add(pictureBox8);
@@ -385,6 +390,32 @@
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
             // 
+            // button8
+            // 
+            button8.Cursor = Cursors.Hand;
+            button8.Font = new Font("JetBrains Mono", 7F);
+            button8.ImageAlign = ContentAlignment.MiddleLeft;
+            button8.Location = new Point(4, 397);
+            button8.Name = "button8";
+            button8.Size = new Size(144, 43);
+            button8.TabIndex = 24;
+            button8.Text = "Ver recaudación";
+            button8.TextAlign = ContentAlignment.MiddleRight;
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // pictureBox10
+            // 
+            pictureBox10.AccessibleName = "pb_exit";
+            pictureBox10.BackColor = SystemColors.ControlLight;
+            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
+            pictureBox10.Location = new Point(12, 402);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(32, 31);
+            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox10.TabIndex = 25;
+            pictureBox10.TabStop = false;
+            // 
             // menu_encargado
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -410,6 +441,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ResumeLayout(false);
         }
 
@@ -439,5 +471,7 @@
         private Button button6;
         private Button button7;
         private PictureBox pictureBox9;
+        private PictureBox pictureBox10;
+        private Button button8;
     }
 }

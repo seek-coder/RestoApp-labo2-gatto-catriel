@@ -3,160 +3,128 @@
   "WorkspaceRootPath": "D:\\csharp_code\\TP1_programacion2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\proveedortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\proveedortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|d:\\csharp_code\\tp1_programacion2\\testsadministracion\\mesatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\mesatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|d:\\csharp_code\\tp1_programacion2\\testsadministracion\\platotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\platotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|d:\\csharp_code\\tp1_programacion2\\testsadministracion\\pedidotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\pedidotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|d:\\csharp_code\\tp1_programacion2\\testsadministracion\\bebidatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\bebidatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|d:\\csharp_code\\tp1_programacion2\\testsadministracion\\productotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\productotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|d:\\csharp_code\\tp1_programacion2\\testsadministracion\\stocktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\stocktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\arcatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\arcatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\arca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\arca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\iencargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\iencargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\imesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\imesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\idelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\idelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|d:\\csharp_code\\tp1_programacion2\\restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero_mesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|d:\\csharp_code\\tp1_programacion2\\restoapp\\menu_mesero_mesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero_mesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|d:\\csharp_code\\tp1_programacion2\\restoapp\\menu_mesero_mesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero_platos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\stocktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\stocktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\proveedortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\proveedortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\productotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\productotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\platotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\platotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\pedidotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\pedidotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\mesatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\mesatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\bebidatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\bebidatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|D:\\csharp_code\\TP1_programacion2\\testsadministracion\\arcatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA16F389-0B40-4703-8CD2-921970FCE94F}|TestsAdministracion\\TestsAdministracion.csproj|solutionrelative:testsadministracion\\arcatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery_pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero_mesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero_mesas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -167,48 +135,72 @@
       "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_saldo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_pagar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\plato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_bienvenida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero_mesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero_mesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\arca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\arca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_bienvenida.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_bienvenida.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\idelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\idelivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\icocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\icocinero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero_platos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero_platos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_encargado_proveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_encargado_proveedores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\bebida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|D:\\csharp_code\\TP1_programacion2\\administracion\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0EF2067-2053-4E9A-83C7-290E89C62BF1}|administracion\\administracion.csproj|solutionrelative:administracion\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\imesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\imesero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|D:\\csharp_code\\TP1_programacion2\\usuarios\\iencargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA6D9A8-E25E-43A5-B43B-F2F5415C0442}|usuarios\\usuarios.csproj|solutionrelative:usuarios\\iencargado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_mesero_mesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_mesero_mesas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_bienvenida.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_bienvenida.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_cocinero_platos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|solutionrelative:restoapp\\menu_cocinero_platos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6EB236CD-8B14-4AC4-A1AB-D8CDF16BDF72}|RestoApp\\RestoApp.csproj|D:\\csharp_code\\TP1_programacion2\\restoapp\\menu_delivery.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -242,35 +234,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 46,
               "Title": "IEncargado.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IEncargado.cs",
               "RelativeDocumentMoniker": "usuarios\\IEncargado.cs",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IEncargado.cs",
               "RelativeToolTip": "usuarios\\IEncargado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABOAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T00:47:12.449Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 35,
               "Title": "Plato.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Plato.cs",
               "RelativeDocumentMoniker": "administracion\\Plato.cs",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Plato.cs",
               "RelativeToolTip": "administracion\\Plato.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwDQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T19:45:15.352Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -282,98 +272,210 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlatoTests.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PlatoTests.cs",
-              "RelativeDocumentMoniker": "TestsAdministracion\\PlatoTests.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PlatoTests.cs",
-              "RelativeToolTip": "TestsAdministracion\\PlatoTests.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwBEAAAAAAAAA",
+              "DocumentIndex": 4,
+              "Title": "menu_encargado_saldo.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_saldo.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs",
+              "RelativeToolTip": "RestoApp\\menu_encargado_saldo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T05:12:43.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T03:10:30.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PedidoTests.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PedidoTests.cs",
-              "RelativeDocumentMoniker": "TestsAdministracion\\PedidoTests.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PedidoTests.cs",
-              "RelativeToolTip": "TestsAdministracion\\PedidoTests.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAqwB8AAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "menu_encargado_stock.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_stock.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs",
+              "RelativeToolTip": "RestoApp\\menu_encargado_stock.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwCIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T05:11:21.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T02:17:15.59Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MesaTests.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\MesaTests.cs",
-              "RelativeDocumentMoniker": "TestsAdministracion\\MesaTests.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\MesaTests.cs",
-              "RelativeToolTip": "TestsAdministracion\\MesaTests.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAiwB4AAAAfAAAA",
+              "Title": "menu_login.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_login.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs",
+              "RelativeToolTip": "RestoApp\\menu_login.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAYwIgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T05:02:01.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T23:00:24.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Mesa.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Mesa.cs",
-              "RelativeDocumentMoniker": "administracion\\Mesa.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Mesa.cs",
-              "RelativeToolTip": "administracion\\Mesa.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAuwEgAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "menu_mesero.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_mesero.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs",
+              "RelativeToolTip": "RestoApp\\menu_mesero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T21:47:33.53Z",
+              "WhenOpened": "2024-06-03T21:44:42.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "menu_mesero_mesas.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_mesero_mesas.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs",
+              "RelativeToolTip": "RestoApp\\menu_mesero_mesas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T23:45:01.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "BebidaTests.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\BebidaTests.cs",
-              "RelativeDocumentMoniker": "TestsAdministracion\\BebidaTests.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\BebidaTests.cs",
-              "RelativeToolTip": "TestsAdministracion\\BebidaTests.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA0wBMAAAAkAAAA",
+              "Title": "menu_encargado_proveedores.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_proveedores.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs",
+              "RelativeToolTip": "RestoApp\\menu_encargado_proveedores.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T04:58:21.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T22:12:03.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Proveedor.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Proveedor.cs",
-              "RelativeDocumentMoniker": "administracion\\Proveedor.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Proveedor.cs",
-              "RelativeToolTip": "administracion\\Proveedor.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAuwD8AAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "menu_encargado_pagar.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_pagar.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs",
+              "RelativeToolTip": "RestoApp\\menu_encargado_pagar.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAkwEMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:04:45.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T20:24:42.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "menu_encargado.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs",
+              "RelativeToolTip": "RestoApp\\menu_encargado.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAwDgAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T23:03:01.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "menu_delivery_pedidos.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_delivery_pedidos.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs",
+              "RelativeToolTip": "RestoApp\\menu_delivery_pedidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:05:00.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "menu_delivery.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_delivery.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.cs",
+              "RelativeToolTip": "RestoApp\\menu_delivery.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAqwCEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T21:44:47.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "menu_cocinero_platos.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero_platos.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs",
+              "RelativeToolTip": "RestoApp\\menu_cocinero_platos.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswDcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T22:42:01.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "menu_cocinero.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs",
+              "RelativeToolTip": "RestoApp\\menu_cocinero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:57:41.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "menu_bienvenida.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_bienvenida.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs",
+              "RelativeToolTip": "RestoApp\\menu_bienvenida.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAywBwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T22:06:32.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "menu_cocinero.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_cocinero.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T05:47:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "menu_cocinero_platos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero_platos.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_cocinero_platos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T23:05:44.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StockTests.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\StockTests.cs",
+              "RelativeDocumentMoniker": "TestsAdministracion\\StockTests.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\StockTests.cs",
+              "RelativeToolTip": "TestsAdministracion\\StockTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:14:14.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ProveedorTests.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\ProveedorTests.cs",
               "RelativeDocumentMoniker": "TestsAdministracion\\ProveedorTests.cs",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\ProveedorTests.cs",
               "RelativeToolTip": "TestsAdministracion\\ProveedorTests.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAcwGMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:59:04.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T01:59:04.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "ProductoTests.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\ProductoTests.cs",
               "RelativeDocumentMoniker": "TestsAdministracion\\ProductoTests.cs",
@@ -381,193 +483,252 @@
               "RelativeToolTip": "TestsAdministracion\\ProductoTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T05:13:18.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T05:13:18.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Pedido.cs",
-              "RelativeDocumentMoniker": "administracion\\Pedido.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Pedido.cs",
-              "RelativeToolTip": "administracion\\Pedido.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAywB4AAAAAAAAA",
+              "DocumentIndex": 18,
+              "Title": "PlatoTests.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PlatoTests.cs",
+              "RelativeDocumentMoniker": "TestsAdministracion\\PlatoTests.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PlatoTests.cs",
+              "RelativeToolTip": "TestsAdministracion\\PlatoTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T22:02:21.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T05:12:43.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StockTests.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\StockTests.cs",
-              "RelativeDocumentMoniker": "TestsAdministracion\\StockTests.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\StockTests.cs",
-              "RelativeToolTip": "TestsAdministracion\\StockTests.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA0wCEAAAAJAAAA",
+              "DocumentIndex": 19,
+              "Title": "PedidoTests.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PedidoTests.cs",
+              "RelativeDocumentMoniker": "TestsAdministracion\\PedidoTests.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\PedidoTests.cs",
+              "RelativeToolTip": "TestsAdministracion\\PedidoTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T05:14:14.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T05:11:21.12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Stock.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Stock.cs",
-              "RelativeDocumentMoniker": "administracion\\Stock.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Stock.cs",
-              "RelativeToolTip": "administracion\\Stock.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAUwC4AAAAAAAAA",
+              "DocumentIndex": 20,
+              "Title": "MesaTests.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\MesaTests.cs",
+              "RelativeDocumentMoniker": "TestsAdministracion\\MesaTests.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\MesaTests.cs",
+              "RelativeToolTip": "TestsAdministracion\\MesaTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-01T20:18:49.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T05:02:01.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
+              "Title": "BebidaTests.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\BebidaTests.cs",
+              "RelativeDocumentMoniker": "TestsAdministracion\\BebidaTests.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\BebidaTests.cs",
+              "RelativeToolTip": "TestsAdministracion\\BebidaTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T04:58:21.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "ArcaTests.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\ArcaTests.cs",
               "RelativeDocumentMoniker": "TestsAdministracion\\ArcaTests.cs",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\TestsAdministracion\\ArcaTests.cs",
               "RelativeToolTip": "TestsAdministracion\\ArcaTests.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAcwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:55:59.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-14T01:55:59.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
+              "Title": "menu_delivery_pedidos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_delivery_pedidos.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_delivery_pedidos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T03:47:56.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "menu_mesero_mesas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_mesero_mesas.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_mesero_mesas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T05:22:13.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "menu_encargado_pagar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_pagar.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_encargado_pagar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T20:22:21.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "menu_encargado_proveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_proveedores.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_encargado_proveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:16:44.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Proveedor.cs",
+              "RelativeDocumentMoniker": "administracion\\Proveedor.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Proveedor.cs",
+              "RelativeToolTip": "administracion\\Proveedor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T22:04:45.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\Program.cs",
               "RelativeDocumentMoniker": "RestoApp\\Program.cs",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\Program.cs",
               "RelativeToolTip": "RestoApp\\Program.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAowG0AAACnAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAkwIgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T19:12:50.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T19:12:50.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Producto.cs",
-              "RelativeDocumentMoniker": "administracion\\Producto.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Producto.cs",
-              "RelativeToolTip": "administracion\\Producto.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAUwCYAAAAAAAAA",
+              "DocumentIndex": 29,
+              "Title": "menu_encargado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_encargado.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T21:39:57.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T23:12:05.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Bebida.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Bebida.cs",
-              "RelativeDocumentMoniker": "administracion\\Bebida.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Bebida.cs",
-              "RelativeToolTip": "administracion\\Bebida.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T21:43:43.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Arca.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Arca.cs",
-              "RelativeDocumentMoniker": "administracion\\Arca.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Arca.cs",
-              "RelativeToolTip": "administracion\\Arca.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T02:49:28.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\Empleado.cs",
-              "RelativeDocumentMoniker": "usuarios\\Empleado.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\usuarios\\Empleado.cs",
-              "RelativeToolTip": "usuarios\\Empleado.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAkwIYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T23:00:58.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IMesero.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IMesero.cs",
-              "RelativeDocumentMoniker": "usuarios\\IMesero.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IMesero.cs",
-              "RelativeToolTip": "usuarios\\IMesero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T21:30:23.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "menu_delivery.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_delivery.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.cs",
-              "RelativeToolTip": "RestoApp\\menu_delivery.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wB8AAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T21:44:47.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "menu_delivery.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.cs",
               "RelativeDocumentMoniker": "RestoApp\\menu_delivery.cs",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.cs [Dise\u00F1o]",
               "RelativeToolTip": "RestoApp\\menu_delivery.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T06:09:41.318Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-03T06:09:41.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "menu_delivery_pedidos.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_delivery_pedidos.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs",
-              "RelativeToolTip": "RestoApp\\menu_delivery_pedidos.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAA0wBoAAAAwAAAA",
+              "DocumentIndex": 31,
+              "Title": "menu_encargado_saldo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_saldo.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_encargado_saldo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T22:05:00.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T02:57:03.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "menu_encargado.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs",
-              "RelativeToolTip": "RestoApp\\menu_encargado.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAwKEAAAARAAAA",
+              "DocumentIndex": 32,
+              "Title": "menu_encargado_stock.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_stock.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_encargado_stock.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T23:03:01.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T02:38:12.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
+              "Title": "menu_mesero.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_mesero.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_mesero.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T06:03:42.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Mesa.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Mesa.cs",
+              "RelativeDocumentMoniker": "administracion\\Mesa.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Mesa.cs",
+              "RelativeToolTip": "administracion\\Mesa.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowB0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:47:33.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Pedido.cs",
+              "RelativeDocumentMoniker": "administracion\\Pedido.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Pedido.cs",
+              "RelativeToolTip": "administracion\\Pedido.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAywCgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:02:21.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "menu_login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_login.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T23:00:23.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "menu_bienvenida.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_bienvenida.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RestoApp\\menu_bienvenida.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T00:46:41.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Arca.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Arca.cs",
+              "RelativeDocumentMoniker": "administracion\\Arca.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Arca.cs",
+              "RelativeToolTip": "administracion\\Arca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T02:49:28.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "IDelivery.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IDelivery.cs",
               "RelativeDocumentMoniker": "usuarios\\IDelivery.cs",
@@ -575,312 +736,11 @@
               "RelativeToolTip": "usuarios\\IDelivery.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T06:10:18.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "menu_encargado_stock.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_stock.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs",
-              "RelativeToolTip": "RestoApp\\menu_encargado_stock.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T02:17:15.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "menu_delivery_pedidos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_delivery_pedidos.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery_pedidos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_delivery_pedidos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T03:47:56.986Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "menu_cocinero_platos.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero_platos.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs",
-              "RelativeToolTip": "RestoApp\\menu_cocinero_platos.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAzwCoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T22:42:01.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "menu_mesero_mesas.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_mesero_mesas.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs",
-              "RelativeToolTip": "RestoApp\\menu_mesero_mesas.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAiwDAAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T23:45:01.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "menu_cocinero_platos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero_platos.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_cocinero_platos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T23:05:44.466Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "menu_encargado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_encargado.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T23:12:05.684Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "menu_encargado_pagar.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_pagar.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_encargado_pagar.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T20:22:21.357Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "menu_encargado_proveedores.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_proveedores.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs",
-              "RelativeToolTip": "RestoApp\\menu_encargado_proveedores.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAywCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:12:03.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "menu_encargado_proveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_proveedores.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_encargado_proveedores.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:14:57.666Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "menu_cocinero.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs",
-              "RelativeToolTip": "RestoApp\\menu_cocinero.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowFMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T05:57:41.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "menu_login.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_login.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs",
-              "RelativeToolTip": "RestoApp\\menu_login.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAYwIAAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T23:00:24.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "menu_mesero.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_mesero.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs",
-              "RelativeToolTip": "RestoApp\\menu_mesero.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAABAwB4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T21:44:42.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "menu_mesero_mesas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_mesero_mesas.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_mesero_mesas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T00:42:10.045Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "menu_mesero.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_mesero.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_mesero.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T06:03:42.306Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "menu_encargado_saldo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_saldo.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_encargado_saldo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T02:57:03.363Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "menu_encargado_stock.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_stock.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_encargado_stock.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T02:38:12.838Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-06-03T06:10:18.753Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "menu_encargado_saldo.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_saldo.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_saldo.cs",
-              "RelativeToolTip": "RestoApp\\menu_encargado_saldo.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA2wCYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T03:10:30.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "menu_encargado_pagar.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_pagar.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.cs",
-              "RelativeToolTip": "RestoApp\\menu_encargado_pagar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T20:24:42.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "menu_bienvenida.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_bienvenida.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_bienvenida.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T00:46:41.577Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "menu_login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_login.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T23:00:23.392Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "menu_bienvenida.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_bienvenida.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.cs",
-              "RelativeToolTip": "RestoApp\\menu_bienvenida.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T22:06:32.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "menu_mesero_mesas.Designer.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.Designer.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_mesero_mesas.Designer.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.Designer.cs",
-              "RelativeToolTip": "RestoApp\\menu_mesero_mesas.Designer.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAYwDAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T00:36:32.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "menu_cocinero.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_cocinero.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero.cs [Dise\u00F1o]",
-              "RelativeToolTip": "RestoApp\\menu_cocinero.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T05:47:03.447Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "menu_bienvenida.Designer.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.Designer.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_bienvenida.Designer.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.Designer.cs",
-              "RelativeToolTip": "RestoApp\\menu_bienvenida.Designer.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAawF4AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T01:17:06.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
               "Title": "ICocinero.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\ICocinero.cs",
               "RelativeDocumentMoniker": "usuarios\\ICocinero.cs",
@@ -892,7 +752,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 42,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Producto.cs",
+              "RelativeDocumentMoniker": "administracion\\Producto.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Producto.cs",
+              "RelativeToolTip": "administracion\\Producto.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:39:57.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Bebida.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Bebida.cs",
+              "RelativeDocumentMoniker": "administracion\\Bebida.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Bebida.cs",
+              "RelativeToolTip": "administracion\\Bebida.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T21:43:43.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\administracion\\Stock.cs",
+              "RelativeDocumentMoniker": "administracion\\Stock.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\administracion\\Stock.cs",
+              "RelativeToolTip": "administracion\\Stock.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAkwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T20:18:49.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IMesero.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IMesero.cs",
+              "RelativeDocumentMoniker": "usuarios\\IMesero.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\usuarios\\IMesero.cs",
+              "RelativeToolTip": "usuarios\\IMesero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvw0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T21:30:23.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "menu_mesero_mesas.Designer.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.Designer.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_mesero_mesas.Designer.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_mesero_mesas.Designer.cs",
+              "RelativeToolTip": "RestoApp\\menu_mesero_mesas.Designer.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAYwDAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T00:36:32.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "menu_bienvenida.Designer.cs",
+              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.Designer.cs",
+              "RelativeDocumentMoniker": "RestoApp\\menu_bienvenida.Designer.cs",
+              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_bienvenida.Designer.cs",
+              "RelativeToolTip": "RestoApp\\menu_bienvenida.Designer.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAawF4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:17:06.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "menu_cocinero_platos.Designer.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_cocinero_platos.Designer.cs",
               "RelativeDocumentMoniker": "RestoApp\\menu_cocinero_platos.Designer.cs",
@@ -900,25 +832,11 @@
               "RelativeToolTip": "RestoApp\\menu_cocinero_platos.Designer.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAwC4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T22:43:53.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T22:43:53.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "menu_encargado_proveedores.Designer.cs",
-              "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.Designer.cs",
-              "RelativeDocumentMoniker": "RestoApp\\menu_encargado_proveedores.Designer.cs",
-              "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_proveedores.Designer.cs",
-              "RelativeToolTip": "RestoApp\\menu_encargado_proveedores.Designer.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAUwC8AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T22:14:49.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 50,
               "Title": "menu_delivery.Designer.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_delivery.Designer.cs",
               "RelativeDocumentMoniker": "RestoApp\\menu_delivery.Designer.cs",
@@ -926,12 +844,11 @@
               "RelativeToolTip": "RestoApp\\menu_delivery.Designer.cs",
               "ViewState": "AQIAAAkBAAAAAAAAAAAAwFIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T06:18:05.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T06:18:05.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 51,
               "Title": "usuarios.csproj",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\usuarios\\usuarios.csproj",
               "RelativeDocumentMoniker": "usuarios\\usuarios.csproj",
@@ -943,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 52,
               "Title": "menu_encargado_stock.Designer.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_stock.Designer.cs",
               "RelativeDocumentMoniker": "RestoApp\\menu_encargado_stock.Designer.cs",
@@ -951,12 +868,11 @@
               "RelativeToolTip": "RestoApp\\menu_encargado_stock.Designer.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAuwC4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T02:37:40.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T02:37:40.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 53,
               "Title": "menu_encargado_pagar.Designer.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado_pagar.Designer.cs",
               "RelativeDocumentMoniker": "RestoApp\\menu_encargado_pagar.Designer.cs",
@@ -964,12 +880,11 @@
               "RelativeToolTip": "RestoApp\\menu_encargado_pagar.Designer.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAUwCAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T20:29:12.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T20:29:12.847Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 54,
               "Title": "menu_encargado.Designer.cs",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.Designer.cs",
               "RelativeDocumentMoniker": "RestoApp\\menu_encargado.Designer.cs",
@@ -977,20 +892,18 @@
               "RelativeToolTip": "RestoApp\\menu_encargado.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T23:40:36.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T23:40:36.047Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 55,
               "Title": "menu_encargado.resx",
               "DocumentMoniker": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.resx",
               "RelativeDocumentMoniker": "RestoApp\\menu_encargado.resx",
               "ToolTip": "D:\\csharp_code\\TP1_programacion2\\RestoApp\\menu_encargado.resx",
               "RelativeToolTip": "RestoApp\\menu_encargado.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-28T23:40:39.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-28T23:40:39.828Z"
             }
           ]
         }

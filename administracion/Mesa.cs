@@ -8,15 +8,15 @@ namespace administracion
 {
     public class Mesa
     {
-        private int _id;
+        //private int _id;
         private int _capacidad;
         private string _meseroAsignado;
         private List<Plato> _platosLista;
         private List<Stock> _stockLista;
 
-        public Mesa(int id, int capacidad, string meseroAsignado, List<Plato> platosLista, List<Stock> stockLista)
+        public Mesa(int capacidad, string meseroAsignado, List<Plato> platosLista, List<Stock> stockLista)
         {
-            this._id = id;
+            //this._id = id;
             this._capacidad = capacidad;
             this._meseroAsignado = meseroAsignado;
             this._platosLista = platosLista;
@@ -56,8 +56,8 @@ namespace administracion
         {
             switch (atributo)
             {
-                case "id":
-                    return _id;
+                //case "id":
+                //    return _id;
                 case "capacidad":
                     return _capacidad;
                 case "mesero":

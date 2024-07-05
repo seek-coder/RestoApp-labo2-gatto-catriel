@@ -10,7 +10,7 @@ namespace AdministracionTests
         public void TestObtenerSaldo()
         {
             double saldoInicial = 100.0;
-            Arca arca = new Arca(saldoInicial);
+            Arca arca = new Arca(saldoInicial, 200);
 
             double saldoObtenido = arca.obtenerSaldo();
 
@@ -22,7 +22,7 @@ namespace AdministracionTests
         {
             double saldoInicial = 100.0;
             double nuevoSaldo = 200.0;
-            Arca arca = new Arca(saldoInicial);
+            Arca arca = new Arca(saldoInicial, 200);
 
             arca.establecerSaldo(nuevoSaldo);
             double saldoObtenido = arca.obtenerSaldo();
@@ -35,7 +35,7 @@ namespace AdministracionTests
         {
             double saldoInicial = 100.0;
             double montoAgregar = 50.0;
-            Arca arca = new Arca(saldoInicial);
+            Arca arca = new Arca(saldoInicial, 200);
 
             arca.agregarSaldo(montoAgregar);
             double saldoObtenido = arca.obtenerSaldo();
@@ -48,7 +48,7 @@ namespace AdministracionTests
         {
             double saldoInicial = 100.0;
             double montoRestar = 50.0;
-            Arca arca = new Arca(saldoInicial);
+            Arca arca = new Arca(saldoInicial, 200);
 
             arca.restarSaldo(montoRestar);
             double saldoObtenido = arca.obtenerSaldo();

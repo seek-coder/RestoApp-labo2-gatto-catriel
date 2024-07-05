@@ -42,7 +42,7 @@ namespace RestoApp
             // --------------- //
 
             List<Arca> listaArcas = new List<Arca>();
-            Arca arca1 = new Arca(3000000);
+            Arca arca1 = new Arca(3000000, 0);
 
             listaArcas.Add(arca1);
 
@@ -117,17 +117,21 @@ namespace RestoApp
             listaPlatos2.Add(plato2);
 
             // LISTA DE MESAS //
-           // -------------- //
+            // -------------- //
 
             List<Mesa> listaMesas = new List<Mesa>();
+            /*
+             * Solo para testear.
+             * 
+             * List<Mesa> listaMesas = new List<Mesa>();
 
-            Mesa mesa1 = new Mesa(1, 6, "Raúl", listaPlatos, listaProductosActual);
-            Mesa mesa2 = new Mesa(2, 4, "Raúl", listaPlatos2, listaProductosActual);
-            Mesa mesa3 = new Mesa(3, 2, "Raúl", listaPlatos2, listaProductosActual);
+            Mesa mesa1 = new Mesa(6, "Raúl", listaPlatos, listaProductosActual);
+            Mesa mesa2 = new Mesa(4, "Raúl", listaPlatos2, listaProductosActual);
+            Mesa mesa3 = new Mesa(2, "Raúl", listaPlatos2, listaProductosActual);
 
             listaMesas.Add(mesa1);
             listaMesas.Add(mesa2);
-            listaMesas.Add(mesa3);
+            listaMesas.Add(mesa3);*/
 
             // LISTA DE PEDIDOS //
            // ---------------- //

@@ -39,7 +39,7 @@
             comboBox1.Items.AddRange(new object[] { "Catriel", "Denise", "Raúl", "Damián", "Tomás" });
             comboBox1.Location = new Point(12, 12);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(232, 29);
+            comboBox1.Size = new Size(270, 29);
             comboBox1.TabIndex = 0;
             comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
@@ -47,7 +47,7 @@
             // 
             button4.Cursor = Cursors.Hand;
             button4.Font = new Font("JetBrains Mono", 11.9999981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button4.Location = new Point(250, 12);
+            button4.Location = new Point(288, 12);
             button4.Name = "button4";
             button4.Size = new Size(144, 29);
             button4.TabIndex = 17;
@@ -59,17 +59,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("JetBrains Mono", 8.249999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(62, 44);
+            label1.Location = new Point(71, 44);
             label1.Name = "label1";
-            label1.Size = new Size(182, 14);
+            label1.Size = new Size(301, 14);
             label1.TabIndex = 18;
-            label1.Text = "Elegir nombre de empleado";
+            label1.Text = "Los primeros en cobrar son los encargados.";
+            label1.Click += label1_Click;
             // 
             // menu_encargado_pagar
             // 
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(396, 63);
+            ClientSize = new Size(438, 63);
             Controls.Add(label1);
             Controls.Add(button4);
             Controls.Add(comboBox1);

@@ -17,19 +17,22 @@ namespace RestoApp
         private string currentUserName;
         private List<Empleado> _listaEmpleados;
         private List<Pedido> _listaPedidos;
+        private List<Plato> _listaPlatos;
 
         private menu_delivery_pedidos _deliveryPedidos;
         private menu_login _login;
 
         private Arca _arca;
-        public menu_delivery(menu_login login, List<Empleado> listaEmpleados, string currentUserName, List<Pedido> listaPedidos, Arca arca)
+        public menu_delivery(menu_login login,
+            List<Empleado> listaEmpleados, string currentUserName, List<Pedido> listaPedidos, Arca arca, List<Plato> listaPlatos)
         {
             InitializeComponent();
             this.currentUserName = currentUserName;
             this._login = login;
             this._arca = arca;
             this._listaEmpleados = listaEmpleados;
-            this._deliveryPedidos = new menu_delivery_pedidos(listaPedidos, arca, ["Tomás"]);
+            this._listaPlatos = listaPlatos;
+            this._deliveryPedidos = new menu_delivery_pedidos(listaPedidos, arca, ["Tomás"], listaPlatos);
 
             this._deliveryPedidos.FormClosing += new FormClosingEventHandler(Form_Closing);
         }

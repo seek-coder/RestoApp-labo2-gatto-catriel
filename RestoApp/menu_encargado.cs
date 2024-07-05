@@ -44,7 +44,7 @@ namespace RestoApp
             this._encargadoPagar = new menu_encargado_pagar(listaEmpleados, listaArcas);
             this._encargadoStock = new menu_encargado_stock(listaProductos, listaArcas, listaEmpleados, listaProveedores);
             this._encargadoSaldo = new menu_encargado_saldo(listaArcas);
-            this._encargadoProveedor = new menu_encargado_proveedores(listaProveedores);
+            this._encargadoProveedor = new menu_encargado_proveedores(listaProveedores, listaArcas);
             this._listaProductosActual = listaProductos;
             this._listaArcas = listaArcas;
             this._listaProveedores = listaProveedores;
@@ -162,19 +162,28 @@ namespace RestoApp
                 // filtro el tipo a "IEncargado" y devuelvo el primer tipo que concida con la condición
                 IEncargado encargado = _listaEmpleados.OfType<IEncargado>().FirstOrDefault();
 
-                if (result == DialogResult.Yes && count == 0)
+                if (result == DialogResult.Yes && count == 0 && _listaArcas[0].obtenerRecaudacion() > 0)
                 {
                     // pago el sueldo y lo resto del arca, que en este caso es la única que existe (la primera)
-                    double recaudacionTotalDelDia = encargado.recaudarIngresoDiario(_listaMesas, _listaPedidos);
-                    _listaArcas[0].agregarSaldo(recaudacionTotalDelDia);
-                    MessageBox.Show($"Se ha recaudado un total de ${recaudacionTotalDelDia} y el nuevo valor del arca es de " +
+                    //double recaudacionTotalDelDia = encargado.recaudarIngresoDiario(_listaMesas, _listaPedidos);
+                    _listaArcas[0].agregarSaldo(_listaArcas[0].obtenerRecaudacion());
+                    MessageBox.Show($"Se ha recaudado un total de ${_listaArcas[0].obtenerRecaudacion().ToString()}" +
+                        $" y el nuevo valor del arca es de " +
                         $"${_listaArcas[0].obtenerSaldo()}");
                     count = count + 1;
-                } else
+                    _listaArcas[0].restablecerRecaudacion(); // setea recaudacion a 0
+                }
+                else
                 {
-                    MessageBox.Show("Ya se ha hecho la recaudación");
+                    MessageBox.Show("Ya se ha hecho la recaudación o no hay nada para recaudar.");
                 }
             }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"La recaudación diaria hasta el momento es de" +
+                $" ${_listaArcas[0].obtenerRecaudacion().ToString()}");
         }
     }
 }

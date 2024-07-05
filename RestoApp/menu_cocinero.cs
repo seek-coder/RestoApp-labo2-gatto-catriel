@@ -28,7 +28,7 @@ namespace RestoApp
             this._login = login;
             this._listaPlatos = listaPlatos;
 
-            this._cocineroPlatos = new menu_cocinero_platos(listaPlatos);
+            this._cocineroPlatos = new menu_cocinero_platos(listaPlatos, listaEmpleados);
 
             this._cocineroPlatos.FormClosing += new FormClosingEventHandler(Form_Closing);
         }

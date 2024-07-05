@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(menu_cocinero));
             splitContainer1 = new SplitContainer();
+            pictureBox8 = new PictureBox();
+            button6 = new Button();
             pictureBox1 = new PictureBox();
             button2 = new Button();
             pictureBox3 = new PictureBox();
@@ -43,17 +45,15 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox5 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            button6 = new Button();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // splitContainer1
@@ -88,6 +88,32 @@
             splitContainer1.SplitterDistance = 150;
             splitContainer1.SplitterWidth = 1;
             splitContainer1.TabIndex = 1;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.AccessibleName = "pb_exit";
+            pictureBox8.BackColor = SystemColors.ControlLight;
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(12, 503);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(32, 31);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 23;
+            pictureBox8.TabStop = false;
+            // 
+            // button6
+            // 
+            button6.Cursor = Cursors.Hand;
+            button6.Font = new Font("JetBrains Mono", 11.9999981F);
+            button6.ImageAlign = ContentAlignment.MiddleLeft;
+            button6.Location = new Point(3, 496);
+            button6.Name = "button6";
+            button6.Size = new Size(144, 43);
+            button6.TabIndex = 22;
+            button6.Text = "Atrás";
+            button6.TextAlign = ContentAlignment.MiddleRight;
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click_1;
             // 
             // pictureBox1
             // 
@@ -232,32 +258,6 @@
             pictureBox5.TabIndex = 12;
             pictureBox5.TabStop = false;
             // 
-            // pictureBox8
-            // 
-            pictureBox8.AccessibleName = "pb_exit";
-            pictureBox8.BackColor = SystemColors.ControlLight;
-            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(12, 503);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(32, 31);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 23;
-            pictureBox8.TabStop = false;
-            // 
-            // button6
-            // 
-            button6.Cursor = Cursors.Hand;
-            button6.Font = new Font("JetBrains Mono", 11.9999981F);
-            button6.ImageAlign = ContentAlignment.MiddleLeft;
-            button6.Location = new Point(3, 496);
-            button6.Name = "button6";
-            button6.Size = new Size(144, 43);
-            button6.TabIndex = 22;
-            button6.Text = "Atrás";
-            button6.TextAlign = ContentAlignment.MiddleRight;
-            button6.UseVisualStyleBackColor = true;
-            button6.Click += button6_Click_1;
-            // 
             // menu_cocinero
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -275,11 +275,11 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
         }
 

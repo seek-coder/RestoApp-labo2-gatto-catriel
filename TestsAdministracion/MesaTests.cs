@@ -9,7 +9,7 @@ namespace administracion.Tests
         [TestMethod]
         public void TestObtenerPrecioTotalPlatos_SinPlatos()
         {
-            var mesa = new Mesa(1, 4, "Juan", new List<Plato>(), new List<Stock>());
+            var mesa = new Mesa(4, "Juan", new List<Plato>(), new List<Stock>());
 
             var resultado = mesa.obtenerPrecioTotalPlatos();
 
@@ -24,29 +24,18 @@ namespace administracion.Tests
                 new Plato("Pizza", 12.99, new Dictionary<string, int> { { "Masa", 200 }, { "Queso", 100 }, { "Tomate", 50 } }, 30),
                 new Plato("Ensalada", 6.5, new Dictionary<string, int> { { "Lechuga", 150 }, { "Tomate", 50 }, { "Aceite", 20 } }, 15)
             };
-            var mesa = new Mesa(2, 6, "María", platos, new List<Stock>());
+            var mesa = new Mesa(6, "María", platos, new List<Stock>());
 
             var resultado = mesa.obtenerPrecioTotalPlatos();
 
             Assert.AreEqual(19.490000000000002, resultado);
         }
 
-        // Agregar más métodos de prueba para cubrir otros escenarios de obtenerPrecioTotalPlatos
-
-        [TestMethod]
-        public void TestObtenerDatos_Id()
-        {
-            var mesa = new Mesa(3, 2, "Pedro", new List<Plato>(), new List<Stock>());
-
-            var resultado = mesa.obtenerDatos("id");
-
-            Assert.AreEqual(3, resultado);
-        }
 
         [TestMethod]
         public void TestObtenerDatos_Capacidad()
         {
-            var mesa = new Mesa(4, 4, "Ana", new List<Plato>(), new List<Stock>());
+            var mesa = new Mesa(4, "Ana", new List<Plato>(), new List<Stock>());
 
             var resultado = mesa.obtenerDatos("capacidad");
 
@@ -56,7 +45,7 @@ namespace administracion.Tests
         [TestMethod]
         public void TestObtenerDatos_Mesero()
         {
-            var mesa = new Mesa(5, 3, "Carlos", new List<Plato>(), new List<Stock>());
+            var mesa = new Mesa(3, "Carlos", new List<Plato>(), new List<Stock>());
 
             var resultado = mesa.obtenerDatos("mesero");
 
@@ -71,7 +60,7 @@ namespace administracion.Tests
                 new Plato("Hamburguesa", 10.0, new Dictionary<string, int> { { "Carne", 150 }, { "Pan", 100 }, { "Lechuga", 50 } }, 20),
                 new Plato("Refresco", 2.5, new Dictionary<string, int> { { "Agua", 300 }, { "Jarabe", 50 } }, 5)
             };
-            var mesa = new Mesa(6, 4, "Daniela", platos, new List<Stock>());
+            var mesa = new Mesa(4, "Daniela", platos, new List<Stock>());
 
             var resultado = mesa.obtenerDatos("platos");
 

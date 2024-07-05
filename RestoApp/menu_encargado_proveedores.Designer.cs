@@ -34,6 +34,8 @@
             nombre = new DataGridViewTextBoxColumn();
             cuit = new DataGridViewTextBoxColumn();
             direccion = new DataGridViewTextBoxColumn();
+            pago = new DataGridViewCheckBoxColumn();
+            monto = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -41,12 +43,13 @@
             // 
             dataGridView1.AllowUserToOrderColumns = true;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { product_type, payment_method, nombre, cuit, direccion });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { product_type, payment_method, nombre, cuit, direccion, pago, monto });
             dataGridView1.Location = new Point(11, 12);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(543, 251);
+            dataGridView1.Size = new Size(744, 251);
             dataGridView1.TabIndex = 2;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.CellValueChanged += dataGridView1_CellValueChanged;
             // 
             // product_type
             // 
@@ -73,11 +76,21 @@
             direccion.HeaderText = "DIRECCIÓN";
             direccion.Name = "direccion";
             // 
+            // pago
+            // 
+            pago.HeaderText = "¿PAGAR?";
+            pago.Name = "pago";
+            // 
+            // monto
+            // 
+            monto.HeaderText = "MONTO A PAGAR";
+            monto.Name = "monto";
+            // 
             // menu_encargado_proveedores
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(566, 274);
+            ClientSize = new Size(765, 274);
             Controls.Add(dataGridView1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
@@ -96,5 +109,7 @@
         private DataGridViewTextBoxColumn nombre;
         private DataGridViewTextBoxColumn cuit;
         private DataGridViewTextBoxColumn direccion;
+        private DataGridViewCheckBoxColumn pago;
+        private DataGridViewTextBoxColumn monto;
     }
 }

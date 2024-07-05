@@ -141,7 +141,8 @@ namespace RestoApp
                 {
                     if (deliveryForm == null)
                     {
-                        deliveryForm = new menu_delivery(this, _listaEmpleados, usernameActual, _listaPedidos, _listaArcas[0]);
+                        deliveryForm = new menu_delivery(this, _listaEmpleados,
+                            usernameActual, _listaPedidos, _listaArcas[0], _listaPlatos);
                     }
                     deliveryForm.Show();
                 }
@@ -177,6 +178,7 @@ namespace RestoApp
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            this.Close();
             Application.Exit();
         }
 
